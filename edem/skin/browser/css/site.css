@@ -1,0 +1,32 @@
+/* edem.skin */
+
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+/* E-Democracy.org specific styles below */
+/* Copyright © 2013 E-Democracy.org and Contributors.                      */
+/* All Rights Reserved.                                                    */
+/* This software is subject to the provisions of the GNU Public License,   */
+/* Version 3 (GPL).                                                        */
+/* http://www.gnu.org/licenses/gpl-3.0.txt                                 */
+/* THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED    */
+/* WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED   */
+/* WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS */
+/* FOR A PARTICULAR PURPOSE. */
+
+#titlebar .logo{
+    display: block;
+    background: url("/++resource++logo-20120906.png") no-repeat;
+    height: 47px;
+}
+
+#titlebar .site{
+    display: none;
+}
