@@ -21,12 +21,58 @@
 /* WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS */
 /* FOR A PARTICULAR PURPOSE. */
 
+body{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#toparea{
+    background-color: #FFF;
+    border-bottom: 0.1875em solid #3A91B5;
+    height: auto;
+}
+
+#titlebar-home-link{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 0;
+}
+
 #titlebar .logo{
-    display: block;
+    display: inline-block;
     background: url("/++resource++logo-20120906.png") no-repeat;
     height: 47px;
+    width: 230px;
+    margin-right: 1em;
 }
 
 #titlebar .site{
     display: none;
+}
+
+#titlebar #sitenav{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#titlebar #sitenav li{
+    margin: 0;
+    display: inline-block;
+}
+
+#titlebar #sitenav, 
+#titlebar #sitenav li, 
+#titlebar #sitenav li a{
+    height: 67px;
+    line-height: 67px;
+}
+
+#titlebar #sitenav li a{
+    display: block;
+    padding: 0 0.5em;
+}
+
+#titlebar #sitenav li a:hover{
+    background-color: #3A91B5;
+    color: #FFF;
 }
