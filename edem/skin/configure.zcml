@@ -44,4 +44,27 @@
     file="browser/css/site.css"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
+
+ <!-- Skin supporting images -->
+  <browser:resource
+    name="bg-blue-gradflat-20131122.png"
+    file="browser/images/bg-blue-gradflat.png"
+    layer=".interfaces.IEDemSkin"
+    permission="zope2.Public" />
+  <browser:resource
+    name="bg-blue-grad-20131122.png"
+    file="browser/images/bg-blue-grad.png"
+    layer=".interfaces.IEDemSkin"
+    permission="zope2.Public" />
+  <browser:resource
+    name="bg-blue-20131122.png"
+    file="browser/images/bg-blue.png"
+    layer=".interfaces.IEDemSkin"
+    permission="zope2.Public" />
+  <browser:resource
+    name="bg-white-20131122.png"
+    file="browser/images/bg-white.png"
+    layer=".interfaces.IEDemSkin"
+    permission="zope2.Public" />
+
 </configure>
