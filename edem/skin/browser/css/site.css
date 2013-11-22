@@ -76,3 +76,14 @@ body{
     background-color: #3A91B5;
     color: #FFF;
 }
+
+#sitenav-mm{
+    background: url("/++resource++bg-blue-gradflat-20131122.png");
+    height: 207px;
+    overflow: hidden;
+}
+
+#sitenav-mm .mm-pane{
+    margin: 0 auto 0 auto;
+    width: 58.75em;
+}
