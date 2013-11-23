@@ -77,13 +77,45 @@ body{
     color: #FFF;
 }
 
+#gs-content-layout-body{
+    position: relative;
+}
+
 #sitenav-mm{
     background: url("/++resource++bg-blue-gradflat-20131122.png");
     height: 207px;
     overflow: hidden;
+    color: #FFF;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+#sitenav-mm strong{
+    color: #4BA2C6;
+    font-size: 0.6875em;
 }
 
 #sitenav-mm .mm-pane{
     margin: 0 auto 0 auto;
     width: 58.75em;
+}
+
+#sitenav-mm .mm-pane div{
+    display: inline-block;
+    width: 33%;
+    border-right: 1px solid #3A91B5;
+}
+
+#sitenav-mm .mm-pane .nav-list{
+    padding: 0;
+}
+
+#sitenav-mm .mm-pane .nav-list li{
+    padding-left: 1em;
+}
+
+#sidenav-mm .mm-pane .nav-list li.nav-header{
+    padding-left: 0;
 }
