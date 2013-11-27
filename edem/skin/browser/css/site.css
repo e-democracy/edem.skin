@@ -10,6 +10,40 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+a,
+a:visited,
+li a,
+li a:visited{
+    text-decoration: none;
+    padding:0.4em 0.4em;
+    color:#131313;
+}
+
+a:hover {
+    background:#131313;
+    color:#FFF;
+}
+
+.label{
+    background: none;
+    text-shadow: none;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+li, .nav-header{
+    line-height: normal; 
+}
+
+p {
+    line-height:1.6em;
+}
+
+strong {
+    font-weight:700;
+}
+
 /* E-Democracy.org specific styles below */
 /* Copyright © 2013 E-Democracy.org and Contributors.                      */
 /* All Rights Reserved.                                                    */
@@ -22,8 +56,34 @@
 /* FOR A PARTICULAR PURPOSE. */
 
 body{
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1;
+    min-width: 300px;
+    line-height: 11px;
 }
+
+/* UI Components */
+
+.btn {
+    padding:1em 2em;
+    background:#F7CE18; /* #D18F02*/
+    border-radius:1em;
+    box-shadow:0px 2px 4px rgba(0,0,0,0.2);
+    color:#125680;
+    display:block;
+    font-size:0.7em;
+    font-weight:700;
+    line-height: inherit;
+    text-align:center;
+}
+
+.btn:hover {
+    background:#F7CE18;
+    color:#125680;
+    cursor:pointer;
+}
+
+/* Page Sections */
 
 #toparea{
     background-color: #FFF;
@@ -69,12 +129,14 @@ body{
 
 #titlebar #sitenav li a{
     display: block;
-    padding: 0 0.5em;
+    padding: 0 0.75em;
+    color: #6C818C;
 }
 
 #titlebar #sitenav li a:hover{
     background-color: #3A91B5;
     color: #FFF;
+    text-decoration: underline;
 }
 
 #gs-content-layout-body{
@@ -82,14 +144,16 @@ body{
 }
 
 #sitenav-mm{
-    background: url("/++resource++bg-blue-gradflat-20131122.png");
-    height: 207px;
-    overflow: hidden;
-    color: #FFF;
+    width:100%;
+    background: #135A87 url('/++resource++bg-blue-gradflat-20131122.png') repeat-x;
     text-align: left;
-    width: 100%;
     position: absolute;
     top: 0px;
+    border-bottom:3px solid #3A91B5;
+    transition-property:top;
+    transition-duration:0.1s;
+    transition-timing-function:ease-out; /* cubic-bezier(0.7,0.01,0.75,1) */
+    z-index:9989;
 }
 
 #sitenav-mm strong{
@@ -97,25 +161,64 @@ body{
     font-size: 0.6875em;
 }
 
-#sitenav-mm .mm-pane{
+.mm-pane{
     margin: 0 auto 0 auto;
     width: 58.75em;
+    padding: 1em;
 }
 
-#sitenav-mm .mm-pane div{
+.mm-section{
     display: inline-block;
-    width: 33%;
     border-right: 1px solid #3A91B5;
+    padding: 0 1em;
+    height: 12em;
+    vertical-align: top;
 }
 
-#sitenav-mm .mm-pane .nav-list{
+.mm-section.span4{
+    width: 16.75em;
+}
+
+.mm-pane .nav-list a:hover{
+    background: none;
+    text-decoration: underline;
+}
+
+.mm-pane .nav-list{
     padding: 0;
+    margin: 0;
 }
 
-#sitenav-mm .mm-pane .nav-list li{
-    padding-left: 1em;
+.mm-pane .nav-list li{
+    margin: 0;
+    padding: 0;
+    font-size: .9em;
 }
 
-#sidenav-mm .mm-pane .nav-list li.nav-header{
+.mm-pane .nav-list a{
+    margin: 0;
+    color: #FFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-shadow: none;
+}
+
+.mm-pane .nav-list li.nav-header,
+.mm-pane .title{
     padding-left: 0;
+    margin: 0 0 0.5em 0;
+    color: #F7CE18;
+    font-size: .7em;
+    font-weight: 700;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.mm-pane .search {
+    width:17.55em;
+    padding:0.4em 1.2em;
+    border:1px solid #3A91B5;
+    border-radius:5em;
+    outline:none;
 }
