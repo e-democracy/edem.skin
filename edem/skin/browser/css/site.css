@@ -40,6 +40,18 @@ p {
     line-height:1.6em;
 }
 
+.navbar{
+    text-shadow: none;
+}
+
+.navbar .nav{
+    float: none;
+}
+
+.navbar .nav>li>a{
+    text-shadow: none;
+}
+
 strong {
     font-weight:700;
 }
@@ -150,6 +162,7 @@ body{
     background-color: #FFF;
     border-bottom: 0.1875em solid #3A91B5;
     height: auto;
+    position: relative;
 }
 
 #titlebar-home-link{
@@ -166,46 +179,62 @@ body{
     margin-right: 1em;
 }
 
-#titlebar .site{
+.navbar, #titlebar{
+    position: static;
+}
+
+.navbar .site{
     display: none;
 }
 
-#titlebar #sitenav{
+.navbar>.nav{
     margin: 0;
     display: inline-block;
     vertical-align: middle;
 }
 
-#titlebar #sitenav li{
+.navbar>.nav>li{
     margin: 0;
     display: inline-block;
 }
 
-#titlebar #sitenav, 
-#titlebar #sitenav li, 
-#titlebar #sitenav li a{
+.navbar>.nav, 
+.navbar>.nav>li, 
+.navbar>.nav>li>a{
     height: 67px;
     line-height: 67px;
 }
 
-#titlebar #sitenav li a{
+.navbar>.nav>li>a,
+.navbar>.nav>li>a:focus{
     display: block;
     padding: 0 0.75em;
     color: #6C818C;
+    outline: none;
 }
 
-#titlebar #sitenav li a:hover{
+.navbar>.nav>li>a:hover{
     background-color: #3A91B5;
     color: #FFF;
     text-decoration: underline;
+}
+
+.navbar .nav .dropdown-toggle .caret{
+    vertical-align: middle;
+    margin-top: 0;
 }
 
 #gs-content-layout-body{
     position: relative;
 }
 
-#sitenav-mm{
+.yamm .dropdown-menu{
+    border: none;
+}
+
+.yamm .yamm-content{
     width:100%;
+    padding: 0;
     background: #135A87 url('/++resource++bg-blue-gradflat-20131122.png') repeat-x;
     text-align: left;
     position: absolute;
@@ -217,18 +246,18 @@ body{
     z-index:9989;
 }
 
-#sitenav-mm strong{
+.yamm-content strong{
     color: #4BA2C6;
     font-size: 0.6875em;
 }
 
-.mm-pane{
+.yamm-content .container{
     margin: 0 auto 0 auto;
     width: 58.75em;
     padding: 1em;
 }
 
-.mm-section{
+.yamm-section{
     display: inline-block;
     border-right: 1px solid #3A91B5;
     padding: 0 1em;
@@ -236,27 +265,24 @@ body{
     vertical-align: top;
 }
 
-.mm-section.span4{
+.yamm-section.span4{
     width: 16.75em;
 }
 
-.mm-pane .nav-list a:hover{
-    background: none;
-    text-decoration: underline;
-}
-
-.mm-pane .nav-list{
+.yamm-content .nav-list{
     padding: 0;
     margin: 0;
 }
 
-.mm-pane .nav-list li{
+.yamm-content .nav-list>li{
     margin: 0;
     padding: 0;
     font-size: .9em;
+    display: block;
+    float: none;
 }
 
-.mm-pane .nav-list a{
+.yamm-content .nav-list>li>a{
     margin: 0;
     color: #FFF;
     overflow: hidden;
@@ -265,8 +291,13 @@ body{
     text-shadow: none;
 }
 
-.mm-pane .nav-list li.nav-header,
-.mm-pane .title{
+.yamm-content .nav-list>li>a:hover{
+    background: none;
+    text-decoration: underline;
+}
+
+.yamm-content .nav-list>li.nav-header,
+.yamm-content .title{
     padding-left: 0;
     margin: 0 0 0.5em 0;
     color: #F7CE18;
@@ -276,7 +307,7 @@ body{
     text-transform: none;
 }
 
-.mm-pane .search {
+.yamm-content .search {
     width:17.55em;
     padding:0.4em 1.2em;
     border:1px solid #3A91B5;
