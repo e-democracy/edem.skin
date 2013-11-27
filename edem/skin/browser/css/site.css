@@ -293,7 +293,8 @@ body{
 
 .yamm-content .nav-list>li>a:hover{
     background: none;
-    text-decoration: underline;
+    color: #FFF;
+    text-decoration: underline !important;
 }
 
 .yamm-content .nav-list>li.nav-header,
