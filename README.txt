@@ -26,6 +26,10 @@ by `gs.content.css`_, and takes cues from other implementations provided by
 `gs.skin.blue`_ and `gs.skin.green`_. `gs.content.css`_ is itself based on
 `Twitter Bootstrap`_.
 
+This egg also includes `Yamm`_, a third party mega menu implementation for 
+Bootstrap. Yamm's CSS is included in site.css, and it's license is in 
+Yamm-LICENSE.txt.
+
 Authors
 =======
 
@@ -48,5 +52,6 @@ Resources
 .. _gs.skin.blue: https://source.iopen.net/groupserver/gs.skin.blue/summary
 .. _gs.skin.green: https://source.iopen.net/groupserver/gs.skin.green/summary
 .. _Twitter Bootstrap: http://getbootstrap.com/
+.. _Yamm: http://geedmo.github.io/yamm/
 .. _Creative Commons Attribution-Share Alike 3.0 License:
    http://creativecommons.org/licenses/by-sa/3.0/
