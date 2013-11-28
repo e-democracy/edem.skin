@@ -330,6 +330,10 @@ body{
     width: 16.75em;
 }
 
+.yamm-section.span6{
+    width: 25.125em;
+}
+
 .yamm-content .nav-list{
     padding: 0;
     margin: 0;
