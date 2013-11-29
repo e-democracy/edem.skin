@@ -217,12 +217,25 @@ body{
     line-height: 11px;
 }
 
+/* Full Width */
 #titlebar, 
 .yamm-content>.container,
 #bodyblock, 
 #gs-content-layout-footer-content{
     width: 58.75em;
     margin: 0 auto;
+}
+
+.yamm-section.span4{
+    width: 16.75em;
+}
+
+.yamm-section.span6{
+    width: 25.125em;
+}
+
+.yamm-section.span12{
+    width: 58.75em;
 }
 
 /* UI Components */
@@ -258,14 +271,14 @@ body{
 #titlebar-home-link{
     display: inline-block;
     vertical-align: middle;
-    padding-top: 0.75em;
+    padding: 0.875em;
 }
 
 #titlebar .logo{
     display: inline-block;
-    background: url("/++resource++logo-20120906.png") no-repeat;
-    height: 47px;
-    width: 230px;
+    background: url("/++resource++logo-20131129.png") no-repeat;
+    height: 30px;
+    width: 147px;
     margin-right: 1em;
 }
 
@@ -300,7 +313,7 @@ body{
 #sitenav, 
 #sitenav>li, 
 #sitenav>li>a{
-    line-height: 67px;
+    line-height: 58px;
 }
 
 #sitenav>li>a,
@@ -363,14 +376,6 @@ body{
     padding: 0 1em;
     height: 12em;
     vertical-align: top;
-}
-
-.yamm-section.span4{
-    width: 16.75em;
-}
-
-.yamm-section.span6{
-    width: 25.125em;
 }
 
 .yamm-content .nav-list{
@@ -604,6 +609,59 @@ body{
 
   .navbar-static .navbar-inner{
     padding-left:10px;padding-right:10px;
+  }
+
+  #sitenav>li{
+    margin: 0;
+  }
+
+  #sitenav>li>a,
+  #sitenav>li>a:hover,
+  #sitenav>li>a:focus{
+    color: #F7CE18;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  #sitenav>li>a:focus{
+    background-color: #3A91B5;
+  }
+
+  .yamm .yamm-content{
+    position: static;
+    border: none;
+    background: none;
+  }
+
+  .yamm-section{
+    display: block;
+    border: none;
+    height: auto;
+    padding: 0;
+  }
+
+  .yamm-section.span4,
+  .yamm-section.span6,
+  .yamm-section.span12{
+    width: 100%;
+  }
+
+  .yamm-section .nav-list>li{
+    background-color: #064A77;
+  }
+
+  .yamm-section .nav-list>li.nav-header{
+    background: none;
+  }
+
+  .yamm-section .nav-list>li>a{
+    font-weight: normal;
+    color: #FFF;
+    padding: 1em;
+  }
+
+  .yamm-section .nav-list>li>a:hover{
+    background-color: #3A91B5;
   }
 
 }
