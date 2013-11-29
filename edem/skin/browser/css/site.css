@@ -277,7 +277,6 @@ body{
 #sitenav, 
 #sitenav>li, 
 #sitenav>li>a{
-    height: 67px;
     line-height: 67px;
 }
 
@@ -468,6 +467,10 @@ body{
     background-color:#f2f2f2;
   } 
 
+  .nav-collapse #sitenav-account{
+    float:none;
+  }
+
   .nav-collapse .dropdown-menu{
     position:static;
     top:auto;
@@ -534,8 +537,8 @@ body{
 }
 
 @media (min-width:980px){
-.nav-collapse.collapse{
-  height:auto !important;
-  overflow:visible !important;
-}
+  .nav-collapse.collapse{
+    height:auto !important;
+    overflow:visible !important;
+  }
 }
