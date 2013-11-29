@@ -198,6 +198,14 @@ body{
     line-height: 11px;
 }
 
+#titlebar, 
+.yamm-content>.container,
+#bodyblock, 
+#gs-content-layout-footer-content{
+    width: 58.75em;
+    margin: 0 auto;
+}
+
 /* UI Components */
 
 .btn {
@@ -261,10 +269,6 @@ body{
     display: inline-block;
 }
 
-#sitenav{
-    font-size: 0.9em;
-}
-
 #sitenav>li{
     display: block;
     margin: 0 0.625em 0 0;
@@ -284,6 +288,7 @@ body{
     color: #6C818C;
     outline: none;
     margin: 0;
+    font-size: 0.9em;
 }
 
 #sitenav>li>a:hover{
@@ -327,8 +332,6 @@ body{
 }
 
 .yamm-content .container{
-    margin: 0 auto 0 auto;
-    width: 58.75em;
     padding: 1em;
 }
 
