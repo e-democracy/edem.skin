@@ -62,27 +62,24 @@ p {
     margin-right: 0;
 }
 
-.navbar .btn-navbar,
-.navbar .btn-navbar:hover, 
-.navbar .btn-navbar:focus, 
-.navbar .btn-navbar:active, 
-.navbar .btn-navbar.active, 
-.navbar .btn-navbar.disabled, 
-.navbar .btn-navbar[disabled]{
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    margin: 0;
-    background-color: 
-
+.navbar .btn-navbar p{
+    margin: 1.5em 0 0;
+    vertical-align: baseline;
 }
 
-.navbar .btn-navbar .icon-bar{
-    background-color: #363636;
-    color: #363636;
+.navbar .btn-navbar .icon-bar,
+.navbar .btn-navbar.collapsed .icon-bar{
     text-shadow: none;
     margin-left: auto;
     margin-right: auto;
+}
+
+.navbar .btn-navbar .icon-bar{
+    background-color: #FFF;
+}
+
+.navbar .btn-navbar.collapsed .icon-bar{
+    background-color: #363636;
 }
 
 strong {
@@ -291,6 +288,10 @@ body{
     display: inline-block;
 }
 
+#sitenav{
+    background: #135A87 url('/++resource++bg-blue-20131122.png')
+}
+
 #sitenav>li{
     display: block;
     margin: 0 0.625em 0 0;
@@ -322,7 +323,6 @@ body{
     display: block;
     width: 100%;
     vertical-align: middle;
-    background: #135A87 url('/++resource++bg-blue-20131122.png')
 }
 
 .navbar .nav .dropdown-toggle .caret{
@@ -447,6 +447,10 @@ body{
     padding: 0;
   }
 
+  #toparea{
+    border: none;
+  }
+
   .navbar-header{
     float: none;
   }
@@ -568,20 +572,35 @@ body{
     height:0;
   } 
 
-  .navbar .btn-navbar{
+  .navbar .btn-navbar,
+  .navbar .btn-navbar:hover,  
+  .navbar .btn-navbar:focus,  
+  .navbar .btn-navbar:active, 
+  .navbar .btn-navbar.active, 
+  .navbar .btn-navbar.disabled, 
+  .navbar .btn-navbar[disabled]{
+    font-size: 1em;
     display:block;
     width:3.75em;
     height:3.75em;
-    background:#FFF;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    background: #064A77;
     display:block;
     overflow:hidden;
     position:absolute;
     top:0;
     right:0;
     z-index:9990;
-    padding:1em 0 0 0;
+    padding:0;
     text-align:center;
   } 
+
+  .navbar .btn-navbar.collapsed{
+    background: #FFF;
+  }
 
   .navbar-static .navbar-inner{
     padding-left:10px;padding-right:10px;
