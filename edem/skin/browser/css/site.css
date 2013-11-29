@@ -45,7 +45,9 @@ p {
 }
 
 .navbar-header{
-    display: inline-block;
+    display: block;
+    float: left;
+    padding-top: .75em;
 }
 
 .navbar .nav{
@@ -54,6 +56,11 @@ p {
 
 .navbar .nav>li>a{
     text-shadow: none;
+}
+
+.navbar .nav-list{
+    padding: 0;
+    margin-right: 0;
 }
 
 strong {
@@ -286,7 +293,8 @@ body{
 }
 
 #sitenav-collapse{
-    display: inline-block;
+    display: block;
+    width: 100%;
     vertical-align: middle;
 }
 
@@ -385,6 +393,10 @@ body{
     border:1px solid #3A91B5;
     border-radius:5em;
     outline:none;
+}
+
+#sitenav-account{
+    float: right;
 }
 
 #sitenav-account .userimage{
