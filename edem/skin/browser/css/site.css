@@ -19,11 +19,6 @@ li a:visited{
     color:#131313;
 }
 
-a:hover {
-    background:#131313;
-    color:#FFF;
-}
-
 .label{
     background: none;
     text-shadow: none;
