@@ -432,7 +432,7 @@ body{
     vertical-align: middle;
 }
 
-@media (max-width:979px){
+@media (max-width:767px){
 
   .yamm-content>.container,
   #bodyblock, 
@@ -440,6 +440,10 @@ body{
     width: 98%;
     padding-left: 1%;
     padding-right: 1%;
+  }
+
+  .hidden-phone{
+    display: none !important;
   }
 
   #titlebar{
