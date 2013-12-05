@@ -10,6 +10,10 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+/*
+ * General UI
+ */
+
 /* Links */
 a,
 a:visited,
@@ -87,7 +91,6 @@ strong {
 .navbar .btn-navbar.collapsed .icon-bar{
     background-color: #363636;
 }
-
 
 
 #titlebar .logo{
@@ -246,7 +249,9 @@ body{
     width: 58.75em;
 }
 
-/* UI Components */
+/*
+ * UI Components 
+ */
 
 .btn {
     padding:1em 2em;
@@ -266,6 +271,12 @@ body{
     background:#F7CE18;
     color:#125680;
     cursor:pointer;
+}
+
+/* Navigation */
+#breakcrumbs li,
+#breadcrumbs li:after{
+    color: inherit;
 }
 
 /* 
