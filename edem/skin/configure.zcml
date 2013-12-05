@@ -45,7 +45,7 @@
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
 
- <!-- Skin supporting images -->
+  <!-- Skin supporting images -->
   <browser:resource
     name="bg-blue-gradflat-20131122.png"
     file="browser/images/bg-blue-gradflat.png"
@@ -64,6 +64,13 @@
   <browser:resource
     name="bg-white-20131122.png"
     file="browser/images/bg-white.png"
+    layer=".interfaces.IEDemSkin"
+    permission="zope2.Public" />
+
+  <!-- Skin supporting JS -->
+  <browser:resource
+    name="edem-skin-sitenav.js"
+    file="browser/js/edem-skin-sitenav.js"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
 
