@@ -10,13 +10,13 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+/* Links */
 a,
 a:visited,
 li a,
 li a:visited{
-    text-decoration: none;
     padding:0.4em 0.4em;
-    color:#131313;
+    color:#3A91B5;
 }
 
 .label{
@@ -27,6 +27,7 @@ li a:visited{
     line-height: inherit;
 }
 
+/* Text */
 li, .nav-header{
     line-height: normal; 
 }
@@ -35,6 +36,15 @@ p {
     line-height:1.6em;
 }
 
+strong {
+    font-weight:700;
+}
+.muted em,
+.muted strong{
+  color: inherit;
+}
+
+/* Navigation */
 .navbar{
     text-shadow: none;
 }
@@ -78,9 +88,7 @@ p {
     background-color: #363636;
 }
 
-strong {
-    font-weight:700;
-}
+
 
 #titlebar .logo{
     display: inline-block;
@@ -260,8 +268,11 @@ body{
     cursor:pointer;
 }
 
-/* Page Sections */
+/* 
+ * Page Sections 
+ */
 
+/* Top Banner/Site Navigation */
 #toparea{
     background-color: #FFF;
     border-bottom: 0.1875em solid #3A91B5;
@@ -440,8 +451,20 @@ body{
     vertical-align: middle;
 }
 
+/* Page Body */
+
+body{
+  background: #dadada url('/++resource++bg-white-20131122.png') repeat;
+}
+
+#gs-content-layout-body,
+#bodyblock{
+  background: none;
+}
+
 @media (max-width:767px){
 
+  /* Full Width */
   .yamm-content>.container,
   #bodyblock, 
   #gs-content-layout-footer-content{
@@ -450,10 +473,20 @@ body{
     padding-right: 1%;
   }
 
+  /*
+   * Utility Classes
+   */
+
   .hidden-phone{
     display: none !important;
   }
 
+
+  /*
+   * Page Sections
+   */
+
+  /* Top Banner/Site Navigation */
   #titlebar{
     width: 100%;
     padding: 0;
