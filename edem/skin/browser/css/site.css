@@ -81,6 +81,10 @@ strong {
     font-weight:700;
 }
 
+#titlebar .logo{
+    display: inline-block;
+}
+
 @media (min-width: 768px) {
   .navbar-toggle {
     display: none;
@@ -266,11 +270,10 @@ body{
 #titlebar-home-link{
     display: inline-block;
     vertical-align: middle;
-    padding: 0.875em;
+    padding: 0.9375em;
 }
 
-#titlebar .logo{
-    display: inline-block;
+.logo{
     background: url("/++resource++logo-20131129.png") no-repeat;
     height: 30px;
     width: 147px;
