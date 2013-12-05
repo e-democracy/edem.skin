@@ -14,3 +14,12 @@ function setSitenavBehavior(){
 
 $(window).resize(setSitenavBehavior);
 $(window).load(setSitenavBehavior);
+
+// On small screens (when sitenav-collapse matters), dropdown menus must open
+// when the sitenav menu opens
+$("#sitenav-collapse").on("show", function(){
+    jQuery("#sitenav .dropdown").addClass("open");
+});
+$("#sitenav-collapse").on("hidden", function(){
+    jQuery("#sitenav .dropdown").removeClass("open");
+});
