@@ -628,6 +628,12 @@ body{
     color: #F7CE18;
     font-size: 1.5em;
     font-weight: 700;
+  }
+
+  #sitenav>li>a.dropdown-toggle,
+  #sitenav>li>a.dropdown-toggle:hover,
+  #sitenav>li>a.dropdown-toggle:focus,
+  #sitenav>li>a.dropdown-toggle:active{
     background: none;
     text-decoration: none;
     cursor: text;
