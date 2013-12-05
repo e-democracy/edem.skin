@@ -311,7 +311,7 @@ body{
 #sitenav, 
 #sitenav>li, 
 #sitenav>li>a{
-    line-height: 58px;
+    line-height: 4.17em;
 }
 
 #sitenav>li>a,
