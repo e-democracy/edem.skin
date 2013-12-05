@@ -327,6 +327,10 @@ body{
     text-decoration: underline;
 }
 
+#sitenav>li>a.dropdown-toggle:after{
+    content: '\a0 \25BE';
+}
+
 #sitenav-collapse{
     display: block;
     width: 100%;
@@ -616,16 +620,19 @@ body{
 
   #sitenav>li>a,
   #sitenav>li>a:hover,
-  #sitenav>li>a:focus{
+  #sitenav>li>a:focus,
+  #sitenav>li>a:active{
     color: #F7CE18;
     font-size: 1.5em;
     font-weight: 700;
+    background: none;
+    text-decoration: none;
+    cursor: text;
   }
 
-  #sitenav>li>a:focus{
-    background-color: #3A91B5;
+  #sitenav>li>a.dropdown-toggle:after{
+    content: '';
   }
-
   .yamm .yamm-content{
     position: static;
     border: none;
