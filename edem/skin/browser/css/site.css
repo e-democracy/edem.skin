@@ -261,7 +261,6 @@ body{
     box-shadow:0px 2px 4px rgba(0,0,0,0.2);
     border: none;
     color:#125680;
-    display:block;
     font-size:0.7em;
     font-weight:700;
     line-height: inherit;
@@ -278,6 +277,10 @@ body{
 #breakcrumbs li,
 #breadcrumbs li:after{
     color: inherit;
+}
+
+.gs-group-messages-image-navlinks{
+  position: static;
 }
 
 /* 
@@ -356,6 +359,10 @@ body{
 
 #sitenav>li>a.dropdown-toggle:after{
     content: '\a0 \25BE';
+}
+
+#sitenav .btn{
+    display:block;
 }
 
 #sitenav-collapse{
