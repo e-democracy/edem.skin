@@ -289,7 +289,7 @@ body{
 
 .metadata ul{
     display: inline-block;
-    position: initial;
+    position: static;
 }
 
 .userimage img{
@@ -522,7 +522,7 @@ body{
     color:#3A91B5;
     display:inline-block;
     float: left;
-    white-space: initial;
+    white-space: normal;
     margin-bottom: 0.53em;
 }
 
@@ -538,21 +538,25 @@ body{
 }
 
 .gs-group-messages-image .metadata ul{
-    position: initial;
+    position: static;
     margin-left: 0.5em;
     width: 11em;
 }
 
 .gs-group-messages-image .metadata .gs-group-messages-image-buttons{
-    position: initial; 
+    position: static; 
     margin-top: 0.5em;
     margin-left: 3.625em;
-    width: initial;
+    width: auto;
 }
 
 .gs-group-messages-image .preview{
     display: inline-block;
-    position: initial;
+    position: static;
+}
+
+.gs-group-messages-image .preview img{
+    width: 100%;
 }
 
 @media (max-width: 950px){
