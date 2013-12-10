@@ -543,16 +543,28 @@ body{
     position: initial;
 }
 
-@media (max-width:767px){
+@media (max-width: 950px){
 
-  /* Full Width */
-  .yamm-content>.container,
-  #bodyblock, 
-  #gs-content-layout-footer-content{
-    width: 98%;
-    padding-left: 1%;
-    padding-right: 1%;
-  }
+    /* Full Width */
+    #titlebar,
+    .yamm-content>.container,
+    #bodyblock, 
+    #gs-content-layout-footer-content{
+        width: 98%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    /*
+     * Image Display Page (.gs-group-messages-image)
+     */
+    .gs-group-messages-image .metadata ul, 
+    .gs-group-messages-image .metadata .gs-group-messages-image-buttons{
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px){
 
   /*
    * Utility Classes
