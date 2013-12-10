@@ -273,6 +273,10 @@ body{
     cursor:pointer;
 }
 
+.gs-content-js-sharebox-dialog-widgets-public .btn{
+    font-size: 16px;
+}
+
 /* User Metadata */
 
 .metadata{
