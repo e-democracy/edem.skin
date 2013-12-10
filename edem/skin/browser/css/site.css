@@ -273,6 +273,29 @@ body{
     cursor:pointer;
 }
 
+/* User Metadata */
+
+.metadata{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1em;
+}
+
+.metadata .userimage{
+    display: inline-block;
+    position: static;
+    float: none;
+}
+
+.metadata ul{
+    display: inline-block;
+    position: initial;
+}
+
+.userimage img{
+    -webkit-filter: none;
+}
+
 /* Navigation */
 #breakcrumbs li,
 #breadcrumbs li:after{
@@ -481,6 +504,12 @@ body{
   background: none;
 }
 
+/* 
+ * Image Display Page (.gs-group-messages-image) 
+ */
+
+/* Background */
+
 .gs-group-messages-image .scaled-image{
   background: #FFF;
   border-radius:1em;
@@ -492,6 +521,26 @@ body{
 
 .gs-group-messages-image h1{
     color:#3A91B5;
+}
+
+/* Page UI Components */
+
+.gs-group-messages-image .metadata ul{
+    position: initial;
+    margin-left: 0.5em;
+    width: 11em;
+}
+
+.gs-group-messages-image .metadata .gs-group-messages-image-buttons{
+    position: initial; 
+    margin-top: 0.5em;
+    margin-left: 3.625em;
+    width: initial;
+}
+
+.gs-group-messages-image .preview{
+    display: inline-block;
+    position: initial;
 }
 
 @media (max-width:767px){
