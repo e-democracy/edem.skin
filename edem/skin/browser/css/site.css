@@ -562,6 +562,14 @@ body{
     .gs-group-messages-image .metadata .gs-group-messages-image-buttons{
         padding: 0;
     }
+
+    .gs-group-messages-image .preview{
+        padding: 1.25em 0.5em 0;
+    }
+
+    .gs-group-messages-image .preview a{
+        padding: 0;
+    }
 }
 
 @media (max-width: 767px){
