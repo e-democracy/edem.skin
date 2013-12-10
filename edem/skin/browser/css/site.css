@@ -502,6 +502,12 @@ body{
   background: none;
 }
 
+/* Footer */
+#gs-content-layout-footer{
+    height: 100%;
+    border-top: 0.1875em solid #3A91B5;
+}
+
 /* 
  * Image Display Page (.gs-group-messages-image) 
  */
