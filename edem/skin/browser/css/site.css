@@ -558,7 +558,8 @@ body{
 /* Page Headings */
 
 .gs-group-messages-image h1,
-#gs-group-messages-post h1{
+#gs-group-messages-post h1,
+#gs-group-messages-topic-body h1{
     color:#3A91B5;
     display:inline-block;
     float: left;
@@ -566,6 +567,11 @@ body{
     overflow-x: visible;
     white-space: normal;
     margin-bottom: 0.53em;
+}
+
+
+#gs-group-messages-topic-body h1{
+    float: none;
 }
 
 /* Page UI Components */
@@ -613,6 +619,21 @@ body{
     position: relative;
     left: 16em;
     padding: 0;
+}
+
+/*
+ * Topic Display Page
+ */
+
+/* Background */
+#gs-group-messages-topic-body{
+    background-color: #e8e8e8;
+    border-radius: 1em;
+}
+
+/* Metadata */
+#gs-group-messages-topic-summary-keyowords>*{
+    vertical-align: middle;
 }
 
 @media (max-width: 950px){
