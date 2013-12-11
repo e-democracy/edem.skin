@@ -273,7 +273,8 @@ body{
     cursor:pointer;
 }
 
-.gs-content-js-sharebox-dialog-widgets-public .btn{
+.gs-content-js-sharebox-dialog-widgets-public .btn,
+.gs-group-messages-post-buttons.btn-toolbar{
     font-size: 16px;
 }
 
@@ -282,15 +283,38 @@ body{
 .metadata{
     display: inline-block;
     vertical-align: top;
-    margin-left: 1em;
 }
 
 .metadata .userimage{
     display: inline-block;
     position: static;
     float: none;
+    margin-left: 1em;
+    vertical-align: top;
 }
 
+.hentry .email-metadata {
+    position: absolute;
+    top: 1.25em;
+    left: 0;
+    padding: 0 0 0 4.75em;
+}
+
+.hentry .userimage{
+    position: absolute;
+    top: 1.25em;
+    margin-left: 1em;
+}
+
+.email-metadata .vcard{
+    white-space: normal;
+    overflow-x: visible;
+}
+
+.email-metadata .vcard a:link{
+    text-decoration: none;
+    line-height: normal;
+}
 .metadata ul{
     display: inline-block;
     position: static;
@@ -518,7 +542,8 @@ body{
 
 /* Background */
 
-.gs-group-messages-image .scaled-image{
+.gs-group-messages-image .scaled-image,
+#gs-group-messages-post .hentry{
   background: #FFF;
   border-radius:1em;
   box-shadow:0px 2px 4px rgba(0,0,0,0.2);
@@ -526,24 +551,35 @@ body{
   clear: both;
 }
 
+#gs-group-messages-post .hentry{
+    padding-top: 1.25em;
+}
+
 /* Page Headings */
 
-.gs-group-messages-image h1{
+.gs-group-messages-image h1,
+#gs-group-messages-post h1{
     color:#3A91B5;
     display:inline-block;
     float: left;
+    max-width: none;
+    overflow-x: visible;
     white-space: normal;
     margin-bottom: 0.53em;
 }
 
 /* Page UI Components */
 
-.gs-group-messages-image-navlinks{
+
+
+.gs-group-messages-image-navlinks,
+.gs-group-messages-post-navigation{
   position: static;
   float: right;
 }
 
-.gs-group-messages-image-navlinks.btn-group>.btn{
+.gs-group-messages-image-navlinks.btn-group>.btn,
+.gs-group-messages-post-navigation.btn-group>.btn{
     margin-bottom: 1em;
 }
 
@@ -556,7 +592,7 @@ body{
 .gs-group-messages-image .metadata .gs-group-messages-image-buttons{
     position: static; 
     margin-top: 0.5em;
-    margin-left: 3.625em;
+    margin-left: 4.8em;
     width: auto;
 }
 
@@ -567,6 +603,16 @@ body{
 
 .gs-group-messages-image .preview img{
     width: 100%;
+}
+
+/*
+ * Post Display Page
+ */
+.hentry .email-message{
+    display: inline-block;
+    position: relative;
+    left: 16em;
+    padding: 0;
 }
 
 @media (max-width: 950px){
@@ -596,6 +642,28 @@ body{
     .gs-group-messages-image .preview a{
         padding: 0;
     }
+
+    /*
+     * Post Display Page
+     */
+     .hentry .email-metadata {
+        position: static;
+        top: 1.25em;
+        padding: 0 0 0 4.75em;
+        width: 100%;
+     }
+
+     .hentry .userimage{
+        position: absolute;
+        top: 1.25em;
+     }
+     .hentry .email-message{
+        display: block;
+        position: static;
+        margin-top: 1em;
+        width: 100%;
+        padding: 1.25em 0.5em 0;
+     }
 }
 
 @media (max-width: 767px){
@@ -849,9 +917,23 @@ body{
    * Image Display Page (.gs-group-messages-image)
    */ 
 
-    .gs-group-messages-image-navlinks{
+    .gs-group-messages-image-navlinks,
+    .gs-group-messages-post-navigation{
         float: none;
+        white-space: normal;
     }
+
+    .gs-group-messages-post-navigaton .btn{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 600px){
+    .gs-group-messages-post-navigation,
+    .gs-group-messages-post-navigation .btn{
+        display: block;
+    }
+}
 
 @media (min-width:980px){
   .nav-collapse.collapse{
