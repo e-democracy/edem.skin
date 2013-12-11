@@ -330,7 +330,32 @@ body{
     color: inherit;
 }
 
+/* Post Content */
 
+.hentry{
+    min-height: 8.250em;
+}
+
+.hentry .email-message{
+    display: inline-block;
+    position: relative;
+    left: 16em;
+    border-left: 1px solid #cee3ec;
+    padding: 1em 1em 1em 0;
+    margin-top: 1em;
+}
+
+.hentry .entry-content{
+    margin-left: 1em;
+}
+
+.hentry .fileNotification{
+    margin-left: 0.5em;
+}
+
+.mediaFileList .hmedia{
+    margin: 0;
+}
 
 /* 
  * Page Sections 
@@ -551,10 +576,6 @@ body{
   clear: both;
 }
 
-#gs-group-messages-post .hentry{
-    padding-top: 1.25em;
-}
-
 /* Page Headings */
 
 .gs-group-messages-image h1,
@@ -571,7 +592,10 @@ body{
 
 
 #gs-group-messages-topic-body h1{
+    color: #000;
     float: none;
+    padding: 0.5em 0 0 0.5em;
+    text-shadow: #FFF -1px 1px;
 }
 
 /* Page UI Components */
@@ -579,13 +603,19 @@ body{
 
 
 .gs-group-messages-image-navlinks,
-.gs-group-messages-post-navigation{
+.gs-group-messages-post-navigation,
+.gs-group-messages-topic-navlinks{
   position: static;
   float: right;
 }
 
+#gs-group-messages-topic-tasks{
+    margin-right: 16px;
+}
+
 .gs-group-messages-image-navlinks.btn-group>.btn,
-.gs-group-messages-post-navigation.btn-group>.btn{
+.gs-group-messages-post-navigation.btn-group>.btn,
+#gs-group-messages-topic-tasks .btn{
     margin-bottom: 1em;
 }
 
@@ -612,16 +642,6 @@ body{
 }
 
 /*
- * Post Display Page
- */
-.hentry .email-message{
-    display: inline-block;
-    position: relative;
-    left: 16em;
-    padding: 0;
-}
-
-/*
  * Topic Display Page
  */
 
@@ -632,8 +652,73 @@ body{
 }
 
 /* Metadata */
+
+#gs-group-messages-topic-summary{
+    margin: 0.625em 0 0.625em 1em;
+}
+
 #gs-group-messages-topic-summary-keyowords>*{
     vertical-align: middle;
+}
+
+/* Content */
+
+.postList{
+    background: #FFF;
+    border: none;
+    clear: both;
+}
+
+.postList .hentry{
+    border-top: 1px solid #cccccc;
+}
+
+/* Submit Content */
+#add-to-topic{
+    clear: both;
+    padding-top: 0.5em;
+    position: static;
+    width: 100%;
+}
+
+#gs-group-messages-topic-page-content .hentry:last-child{
+    border-bottom: 1px solid #cccccc;
+}
+
+.gs-group-messages-topic-add .userimage,
+#gs-group-messages-topic-add-from .userimage{
+    height: auto;
+    margin-left: 1em;
+    float: none;
+}
+
+.gs-group-messages-topic-add span,
+#gs-group-messages-topic-add-from span{
+    margin-left: 0.75em;
+    margin-top: 0.5em;
+    position: absolute;
+}
+
+.gs-group-messages-topic-add div:last-child,
+#gs-group-messages-topic-add-from div:last-child{
+    display: block;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+#gs-group-messages-topic-add-from,
+#widget-form\.message{
+    display: inline-block;
+}
+
+#widget-form\.uploadedFile{
+    margin-left: 15.5em;
+    padding-left: 0.5em;
+}
+
+
+#gs-group-messages-topic-add-from{
+    width: 15.5em;
 }
 
 @media (max-width: 950px){
