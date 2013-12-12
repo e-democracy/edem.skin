@@ -685,6 +685,10 @@ body{
     border-bottom: 1px solid #cccccc;
 }
 
+.gs-group-messages-topic-add h2{
+    margin-left: 1em;
+}
+
 .gs-group-messages-topic-add .userimage,
 #gs-group-messages-topic-add-from .userimage{
     height: auto;
@@ -697,6 +701,8 @@ body{
     margin-left: 0.75em;
     margin-top: 0.5em;
     position: absolute;
+    width: 10em;
+    line-height: 1.25em;
 }
 
 .gs-group-messages-topic-add div:last-child,
@@ -711,15 +717,22 @@ body{
     display: inline-block;
 }
 
-#widget-form\.uploadedFile{
-    margin-left: 15.5em;
+#widget-form\.uploadedFile,
+.gs-group-messages-topic-add .buttons{
+    margin-left: 16.5em;
     padding-left: 0.5em;
 }
 
+.gs-group-messages-topic-add .buttons{
+    text-align: left;
+}
 
 #gs-group-messages-topic-add-from{
     width: 15.5em;
+    margin-right: 1em;
 }
+
+
 
 @media (max-width: 950px){
 
