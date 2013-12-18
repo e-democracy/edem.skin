@@ -732,6 +732,17 @@ body{
     margin-right: 1em;
 }
 
+#gs-group-messages-topic-cannotadd{
+    position: static;
+    margin: 5em auto 0;
+    padding-bottom: 1em;
+    clear: both;
+}
+
+#gs-group-type-discussion-canpost-anon-sign-up{
+    top: 2.8125em;
+}
+
 
 
 @media (max-width: 950px){
@@ -783,6 +794,7 @@ body{
         width: 100%;
         padding: 1.25em 0.5em 0;
      }
+
 }
 
 @media (max-width: 767px){
@@ -1052,6 +1064,12 @@ body{
     .gs-group-messages-post-navigation .btn{
         display: block;
     }
+}
+
+@media (max-width: 500px){
+   #gs-group-type-discussion-canpost-anon-sign-up{
+        position: static;
+   }
 }
 
 @media (min-width:980px){
