@@ -820,6 +820,14 @@ body{
         padding: 1.25em 0.5em 0;
      }
 
+    /*
+     * Topic Display Page
+     */
+     #widget-form\.uploadedFile, 
+     .gs-group-messages-topic-add .buttons{
+        margin: 0 0 1.25em;
+     }
+
 }
 
 @media (max-width: 767px){
@@ -1092,9 +1100,36 @@ body{
 }
 
 @media (max-width: 500px){
-   #gs-group-type-discussion-canpost-anon-sign-up{
+  /*
+   * Topic Display Page
+   */
+
+    #gs-group-type-discussion-canpost-anon-sign-up{
         position: static;
-   }
+    }
+
+    .gs-group-messages-topic-add-file{
+        margin-top: 1.25em;
+    }
+
+    .gs-group-messages-topic-add .buttons{
+        margin: 0;
+        padding: 0;
+    }
+
+    .gs-group-messages-topic-add .buttons>span{
+        margin-left: 0.5em;
+    }
+  
+    .gs-group-messages-topic-add .buttons .formelementbutton{
+        float: none;
+        display: block;
+        margin: 1.25em 0;
+    }
+
+    .gs-group-messages-topic-add .buttons .formelementbutton input.btn{
+        width: 100%;
+    }
 }
 
 @media (min-width:980px){
