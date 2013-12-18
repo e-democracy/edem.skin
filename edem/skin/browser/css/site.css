@@ -609,10 +609,6 @@ body{
   float: right;
 }
 
-#gs-group-messages-topic-tasks{
-    margin-right: 16px;
-}
-
 .gs-group-messages-image-navlinks.btn-group>.btn,
 .gs-group-messages-post-navigation.btn-group>.btn,
 #gs-group-messages-topic-tasks .btn{
@@ -649,6 +645,12 @@ body{
 #gs-group-messages-topic-body{
     background-color: #e8e8e8;
     border-radius: 1em;
+}
+
+/* UI Components */
+
+#gs-group-messages-topic-page-content .gs-group-messages-topic-navlinks{
+    margin-right: 16px;
 }
 
 /* Metadata */
