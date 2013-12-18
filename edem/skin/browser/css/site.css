@@ -727,6 +727,25 @@ body{
     text-align: left;
 }
 
+.gs-group-messages-topic-add .buttons span{
+    display: inline;
+    position: static;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.gs-group-messages-topic-add .buttons .formelementbutton{
+    display: inline;
+    float: right;
+    margin-top: 0;
+    margin-right: 1.5em;
+}
+
+.gs-group-messages-topic-add .buttons .formelementbutton input.btn{
+    font-size: 1em;
+    padding: 1em 4em;
+}
+
 #gs-group-messages-topic-add-from{
     width: 15.5em;
     margin-right: 1em;
