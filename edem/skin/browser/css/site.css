@@ -712,6 +712,10 @@ body{
     margin-left: 1em;
 }
 
+.gs-group-messages-topic-add div:last-child .value select,
+#gs-group-messages-topic-add-from div:last-child .value select{
+    width: 15em;
+}
 #gs-group-messages-topic-add-from,
 #widget-form\.message{
     display: inline-block;
