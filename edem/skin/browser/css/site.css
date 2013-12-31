@@ -702,6 +702,7 @@ body{
 .gs-group-messages-topic-add .userimage,
 #gs-group-messages-topic-add-from .userimage{
     height: auto;
+    width: 3.125em;
     margin-left: 1em;
     float: none;
 }
@@ -709,7 +710,7 @@ body{
 .gs-group-messages-topic-add span,
 #gs-group-messages-topic-add-from span{
     margin-left: 0.75em;
-    margin-top: 0.5em;
+    margin-top: 0;
     position: absolute;
     width: 10em;
     line-height: 1.25em;
@@ -718,7 +719,7 @@ body{
 .gs-group-messages-topic-add div:last-child,
 #gs-group-messages-topic-add-from div:last-child{
     display: block;
-    margin-top: 0.5em;
+    margin-top: 1em;
     margin-left: 1em;
 }
 
