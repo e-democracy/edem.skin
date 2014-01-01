@@ -251,8 +251,44 @@ body{
 }
 
 /*
+ * Content Columns
+ */
+
+.gs-content-layout-cols .main{
+    float: right;
+    padding: 0 1em 0 1.5em;
+    border: none;
+}
+
+.gs-content-layout-cols .secondary.small{
+    float: left;
+    padding: 0;
+    background: none repeat scroll 0 0 rgba(19, 90, 135, 0.1);
+    border: none;
+    position: static;
+    width: 24.333em;
+}
+
+.gs-content-layout-cols .secondary.small>div{
+    padding: 0.5em;
+}
+
+.gs-content-layout-cols .secondary.small>div:first-child{
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+#gs-site-about-home,
+#gs-group-about{
+    margin: 0;
+    background: #135A87 url('/++resource++bg-blue-20131122.png');
+}
+
+/*
  * UI Components 
  */
+
+/* Buttons */
 
 .btn {
     padding:1em 2em;
@@ -271,6 +307,28 @@ body{
     background:#F7CE18;
     color:#125680;
     cursor:pointer;
+}
+
+/* Tabs */
+.nav-tabs > li{
+    margin: 0;
+}
+
+.nav-tabs > li > a,
+.nav-tabs > li > a:hover{
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    padding: 1em;
+    margin: 1px 1px 0 0;
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+
+.nav-tabs > .active > a, 
+.nav-tabs > .active > a:hover, 
+.nav-tabs > .active > a:focus{
+    border: none;
+    padding: 1em;
+    border-bottom: 1px solid white; 
 }
 
 .gs-content-js-sharebox-dialog-widgets-public .btn,
@@ -402,7 +460,7 @@ body{
 }
 
 #sitenav{
-    background: #135A87 url('/++resource++bg-blue-20131122.png')
+    background: #135A87 url('/++resource++bg-blue-20131122.png');
 }
 
 #sitenav>li{
@@ -781,17 +839,29 @@ body{
  * Group Home Page (gs.group.home)
  */
 
-/* Switch columns */
-.gs-content-layout-cols .main{
-    float: right;
-    padding: 0 1em 0 1.5em;
+#gs-group-home-h{
+    margin-bottom: 1em;
+}
+
+#gs-group-home #gs-group-messages-base-tabs .tab-content{
+    background: #FFF;
+}
+
+#gs-group-messages-base-tabs-buttons{
+    margin: 0;
     border: none;
 }
 
-.gs-content-layout-cols .secondary.small{
-    float: left;
-    padding: 0 1.5em 0 0;
+#gs-group-messages-topics-search-form,
+#gs-group-home #gs-group-messages-topics .gs-search-results .gs-search-result{
+    padding: 0.75em;
 }
+
+#gs-group-messages-posts .gs-search-entry input{
+    margin: 0.75em;
+}
+
+
 
 
 @media (max-width: 950px){
