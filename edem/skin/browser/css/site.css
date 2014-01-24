@@ -961,6 +961,21 @@ body{
     padding: 1em;
 }
 
+/*
+ * Menu Layout Pages
+ */
+
+#gs-content-layout-menu-after{
+    background: #FFF;
+    border-radius: 1em;
+    padding: 1em;
+    margin-left: 13.75em;
+}
+
+#gs-content-layout-menu{
+    background: none repeat scroll 0 0 rgba(19, 90, 135, 0.1);
+    padding: 1em 0;
+}
 
 @media (max-width: 950px){
 
