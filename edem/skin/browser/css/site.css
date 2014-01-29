@@ -65,7 +65,7 @@ strong {
 
 .navbar .nav>li>a{
     text-shadow: none;
-    padding: 0 0.75em;
+    padding: 0.4em;
 }
 
 .navbar .nav-list{
@@ -503,7 +503,7 @@ body{
 }
 
 #sitenav{
-    background: #135A87 url('/++resource++bg-blue-20131122.png');
+    background: #EEE;
 }
 
 #sitenav>li{
@@ -558,7 +558,7 @@ body{
 .yamm .yamm-content{
     width:100%;
     padding: 0;
-    background: #135A87 url('/++resource++bg-blue-gradflat-20131122.png') repeat-x;
+    background: #EEEEEE;
     text-align: left;
     position: absolute;
     top: 0px;
@@ -601,15 +601,16 @@ body{
 
 .yamm-content .nav-list>li>a{
     margin: 0;
-    color: #FFF;
+    color: #135A87;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     text-shadow: none;
+    text-decoration: underline !important;
 }
 
 .yamm-content .nav-list>li>a:hover{
-    background: none;
+    background: #135A87;
     color: #FFF;
     text-decoration: underline !important;
 }
@@ -618,7 +619,7 @@ body{
 .yamm-content .title{
     padding-left: 0;
     margin: 0 0 0.5em 0;
-    color: #F7CE18;
+    color: #3A91B5;
     font-size: .7em;
     font-weight: 700;
     text-shadow: none;
@@ -1222,7 +1223,7 @@ body{
   #sitenav>li>a:hover,
   #sitenav>li>a:focus,
   #sitenav>li>a:active{
-    color: #F7CE18;
+    color: #3A91B5;
     font-size: 1.5em;
     font-weight: 700;
     line-height: normal;
@@ -1230,7 +1231,17 @@ body{
     margin-right: 15px;
     padding-left: 0;
     padding-right: 0;
-    border-bottom: 1px solid rgba(255,255,255,0.25);
+    border-bottom: 1px solid #135A87;
+  }
+
+  #sitenav>li>a:hover{
+    color: #FFFFFF;
+  }
+
+  #sitenav>li>a.dropdown-toggle:hover,
+  #sitenav>li>a.dropdown-toggle:focus,
+  #sitenav>li>a.dropdown-toggle:active{
+    color: #3A91B5;
   }
 
   #sitenav>li>a.dropdown-toggle,
@@ -1248,7 +1259,7 @@ body{
   }
   .yamm .yamm-content{
     position: static;
-    border-bottom: 1px solid rgba(255,255,255,0.25);
+    border-bottom: 1px solid #135A87;
     background: none;
   }
 
