@@ -262,16 +262,16 @@ body{
 
 .gs-content-layout-cols .secondary.small{
     float: left;
-    padding: 0;
-    background: none repeat scroll 0 0 rgba(19, 90, 135, 0.1);
-    border: none;
-    position: static;
-    width: 20em;
-    font-size: .9em;
-}
-
-.gs-content-layout-cols .secondary.small>div{
     padding: 0.5em;
+    background: #FFFFFF;
+    border: none;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    position: static;
+    width: 19em;
+    font-size: .9em;
 }
 
 .gs-content-layout-cols .secondary.small a{
@@ -300,20 +300,23 @@ body{
 #gs-site-about-home,
 #gs-group-about{
     margin: 0;
-    background: #135A87 url('/++resource++bg-blue-20131122.png');
 }
 
-#gs-site-about-home,
+/*#gs-site-about-home,
 #gs-group-about,
 #gs-group-about h2,
 #gs-group-about-tab-intro{
     color: #FFF;
-}
+}*/
 
-#gs-site-about-home a,
+/*#gs-site-about-home a,
 #gs-group-about a{
     color: #FFF;
     background: none;
+}*/
+
+..small .gs-content-js-more-buttons{
+    margin: .6em 0 0 0;
 }
 
 #gs-site-about-home a.gs-content-js-more-buttons-more,
@@ -645,7 +648,7 @@ body{
 /* Page Backgrounds */
 
 body{
-  background: #dadada url('/++resource++bg-white-20131122.png') repeat;
+  background: #dadada url('/++resource++bg-blue-20131122.png') repeat;
 }
 
 #gs-content-layout-body,
@@ -881,6 +884,7 @@ body{
 
 #gs-group-home-h{
     margin-bottom: 1em;
+    color: #FFFFFF;
 }
 
 #gs-group-home #gs-group-messages-base-tabs .tab-content{
