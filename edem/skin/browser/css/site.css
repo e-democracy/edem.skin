@@ -996,6 +996,19 @@ body{
 }
 
 /*
+ * Profile Pages
+ */
+
+body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
+    background: #FFF;
+    border-radius: 1.0em;
+    padding: 1.0em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+}
+
+/*
  * Login Page
  */
 
