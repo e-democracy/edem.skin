@@ -954,8 +954,18 @@ body{
     display: none;
 }
 
+#page-groups #groups-you-can-join .ui-accordion-header>a:after{
+    content: '\a0 \25BE';
+}
+
 #page-groups #groups-you-can-join .cat dt{
     padding-top: .5em;
+    border-top: 1px solid #EEE;
+    margin-top: 0.5em;
+}
+
+#page-groups #groups-you-can-join .cat dd{
+    font-size: 0.9em;
 }
 
 /*
