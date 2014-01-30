@@ -894,6 +894,26 @@ body{
     width: 39.5em;
 }
 
+.gs-search-empty,
+.gs-search-failed,
+#gs-group-messages-topics-loading,
+#gs-group-messages-posts-loading{
+    padding: 0 1em;
+}
+
+#gs-group-messages-topics-search-form-new-topic,
+#gs-group-type-announcement-posts-form-new-topic{
+    right: 1em;
+}
+
+.gs-search-toolbar.btn-toolbar .gs-search-toolbar-previous{
+    left: 1em;
+}
+
+.gs-search-toolbar.btn-toolbar .gs-search-toolbar-next{
+    right: 1em;
+}
+
 #gs-group-home #gs-group-messages-base-tabs .tab-content{
     background: #FFF;
     border-radius: 0em 1em 1em 1em;
