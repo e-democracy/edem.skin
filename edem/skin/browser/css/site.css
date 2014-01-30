@@ -746,7 +746,7 @@ body{
 }
 
 /*
- * Topic Display Page
+ * Group Topic Display Page
  */
 
 /* Background */
@@ -909,6 +909,40 @@ body{
     padding: 1em;
 }
 
+/*
+ * Group Start a Topic Page
+ */
+
+#gs-group-messages-starttopic{
+    background: #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#gs-group-messages-starttopic #gs-group-messages-topic-add-from{
+    width: auto;
+}
+
+
+#gs-group-messages-starttopic #gs-group-messages-topic-add-from span{
+    display: inline-block;
+    width: auto;
+    position: static;
+    margin-left: 0;
+}
+
+#gs-group-messages-starttopic #widget-form\.uploadedFile, 
+#gs-group-messages-starttopic .gs-group-messages-topic-add .buttons{
+    margin-left: 0;
+}
+
+#gs-group-messages-starttopic .gs-group-messages-topic-add .buttons{
+    padding-bottom: 2em;
+}
+
+#gs-group-messages-starttopic .gs-group-messages-topic-add #gs-group-messages-topic-add-privacy-summary{
+    width: auto;
+}
 /*
  * Group Home Page (gs.group.home)
  */
@@ -1474,6 +1508,32 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
 
   .gs-group-messages-post-navigaton .btn{
     display: inline-block;
+  }
+
+  /*
+   * Group Start a Topic Page
+   */
+  #gs-group-messages-starttopic .gs-group-messages-topic-add #form\.message,
+  #gs-group-messages-starttopic .gs-group-messages-topic-add #form\.topic{
+    width: 95%;
+  }
+
+  #gs-group-messages-starttopic .gs-group-messages-topic-add-file label{
+    position: static;
+    margin-top: 1em;
+  }
+
+  #gs-group-messages-starttopic .gs-group-messages-topic-add-file-files{
+    margin-left: 0;
+    padding: 0;
+  }
+
+  #gs-group-messages-starttopic .gs-group-messages-topic-add-file-files .gs-group-messages-topic-add-file-files-widget{
+    margin-left: 0;
+  }
+
+  #gs-group-messages-starttopic .gs-group-messages-topic-add-file-files .gs-group-messages-topic-add-file-files-list .MultiFile-title{
+    position: static;
   }
 
 }
