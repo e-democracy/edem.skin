@@ -684,13 +684,14 @@ body{
 .gs-group-messages-image h1,
 #gs-group-messages-post h1,
 #gs-group-messages-topic-body h1{
-    color:#3A91B5;
+    color:#FFFFFF;
     display:inline-block;
     float: left;
     max-width: 100%; 
     overflow-x: hidden;
     white-space: normal;
     margin-bottom: 0.53em;
+    line-height: 1.35;
 }
 
 
