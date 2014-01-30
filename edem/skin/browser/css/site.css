@@ -1019,7 +1019,7 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     padding: 1em;
 }
 
-@media (max-width: 950px){
+@media (max-width: 970px){
 
     /* Full Width */
     #titlebar,
@@ -1077,9 +1077,43 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
         margin: 0 0 1.25em;
      }
 
+     /*
+      * Page Sections
+      */
+
+     /* Main Content on Two Column Layout */
+     .gs-content-layout-cols .main{
+        width: 62%;
+     }
+
 }
 
-@media (max-width: 767px){
+@media screen and (max-width: 900px){
+  /*
+   * Page Sections
+   */
+
+  /* Sidebar */
+  .gs-content-layout-cols .secondary.small{
+    float: none;
+    width: auto;
+    border-radius: 1em;
+    padding: 1em;
+  }
+
+  /*
+   * Site Homepage
+   */
+   #gs-site-home .main{
+    float: none;
+    width: auto;
+    position: static;
+    margin: 0 0 1.25em 0;
+   }
+
+}
+
+@media screen and (max-width: 767px){
 
   /*
    * Utility Classes
@@ -1336,19 +1370,21 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     background-color: #3A91B5;
   }
 
+
   /*
    * Image Display Page (.gs-group-messages-image)
    */ 
 
-    .gs-group-messages-image-navlinks,
-    .gs-group-messages-post-navigation{
-        float: none;
-        white-space: normal;
-    }
+  .gs-group-messages-image-navlinks,
+  .gs-group-messages-post-navigation{
+    float: none;
+    white-space: normal;
+  }
 
-    .gs-group-messages-post-navigaton .btn{
-        display: inline-block;
-    }
+  .gs-group-messages-post-navigaton .btn{
+    display: inline-block;
+  }
+
 }
 
 @media screen and (max-width: 660px){
