@@ -889,8 +889,14 @@ body{
     color: #FFFFFF;
 }
 
+#gs-group-home.gs-content-layout-cols .main{
+    padding: 0;
+    width: 39.5em;
+}
+
 #gs-group-home #gs-group-messages-base-tabs .tab-content{
     background: #FFF;
+    border-radius: 0em 1em 1em 1em;
 }
 
 #gs-group-messages-base-tabs-buttons{
@@ -900,7 +906,7 @@ body{
 
 #gs-group-messages-topics-search-form,
 #gs-group-home #gs-group-messages-topics .gs-search-results .gs-search-result{
-    padding: 0.75em;
+    padding: 0.75em 1em;
 }
 
 #gs-group-messages-posts .gs-search-entry input{
@@ -1032,6 +1038,14 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     }
 
     /*
+     * Page Sections 
+     */
+    /* Main Content on Two Column Layout */
+    .gs-content-layout-cols .main{
+        width: 62%;
+     }
+
+    /*
      * Image Display Page (.gs-group-messages-image)
      */
     .gs-group-messages-image .metadata ul, 
@@ -1050,41 +1064,41 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     /*
      * Post Display Page
      */
-     .hentry .email-metadata {
-        position: static;
-        top: 1.25em;
-        padding: 0 0 0 4.75em;
-        width: auto;
-     }
+    .hentry .email-metadata {
+      position: static;
+      top: 1.25em;
+      padding: 0 0 0 4.75em;
+      width: auto;
+    }
 
-     .hentry .userimage{
-        position: absolute;
-        top: 1.25em;
-     }
-     .hentry .email-message{
-        display: block;
-        position: static;
-        margin-top: 1em;
-        width: auto;
-        padding: 1.25em 0.5em 0;
-     }
+    .hentry .userimage{
+      position: absolute;
+      top: 1.25em;
+    }
+     
+    .hentry .email-message{
+      display: block;
+      position: static;
+      margin-top: 1em;
+      width: auto;
+      padding: 1.25em 0.5em 0;
+    }
 
     /*
      * Topic Display Page
      */
-     #widget-form\.uploadedFile, 
-     .gs-group-messages-topic-add .buttons{
-        margin: 0 0 1.25em;
-     }
+    #widget-form\.uploadedFile, 
+    .gs-group-messages-topic-add .buttons{
+      margin: 0 0 1.25em;
+    }
 
-     /*
-      * Page Sections
-      */
-
-     /* Main Content on Two Column Layout */
-     .gs-content-layout-cols .main{
-        width: 62%;
-     }
+    /*
+     * Group Home Page
+     */
+    /* Main Content on Two Column Layout */
+    #gs-group-home.gs-content-layout-cols .main{
+      width: 66%;
+    }
 
 }
 
@@ -1100,16 +1114,23 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     border-radius: 1em;
     padding: 1em;
   }
-
-  /*
-   * Site Homepage
-   */
-   #gs-site-home .main{
+  
+  /* Main Content */
+   .gs-content-layout-cols .main{
     float: none;
     width: auto;
     position: static;
     margin: 0 0 1.25em 0;
    }
+  
+  /*
+   * Group Home Page
+   */
+  /* Main Content on Two Column Layout */
+  #gs-group-home.gs-content-layout-cols .main{
+    width: auto;
+  }
+
 
 }
 
