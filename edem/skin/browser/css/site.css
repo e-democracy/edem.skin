@@ -841,6 +841,10 @@ body{
     padding-left: 0.5em;
 }
 
+.gs-group-messages-topic-add-file-files .gs-group-messages-topic-add-file-files-list .MultiFile-title{
+  position: static;
+}
+
 .gs-group-messages-topic-add .buttons{
     text-align: left;
 }
@@ -1532,9 +1536,6 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     margin-left: 0;
   }
 
-  #gs-group-messages-starttopic .gs-group-messages-topic-add-file-files .gs-group-messages-topic-add-file-files-list .MultiFile-title{
-    position: static;
-  }
 
 }
 
