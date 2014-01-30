@@ -881,6 +881,35 @@ body{
 }
 
 /*
+ * Group Posts Page
+ */
+
+/*Background*/
+
+#gs-group-messages-posts-page{
+    background: #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+/*Navigation*/
+#gs-group-messages-posts-page .nav{
+    right: 16px;
+}
+
+/*
+ * Group Topics Page
+ */
+
+/*Background*/
+
+#gs-group-messages-topics-page{
+    background: #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+/*
  * Group Home Page (gs.group.home)
  */
 
