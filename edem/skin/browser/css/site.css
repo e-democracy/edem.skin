@@ -41,7 +41,9 @@ li a:hover{
 }
 
 a:visited,
-li a:visited{
+li a:visited,
+a:visited em, 
+a:visited strong{
     background: none;
     color: #533A77;
     text-decoration: underline;
