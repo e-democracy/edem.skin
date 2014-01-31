@@ -1113,6 +1113,20 @@ ul.searchResults li{
 }
 
 /*
+ * Site Content Editing Pages (?)
+ */
+
+form#edit-profile{
+    background: #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+form #widget-form\.message{
+    width: 100%;
+}
+
+/*
  * Site Homepage
  */
 #gs-site-home .main{
