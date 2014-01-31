@@ -369,29 +369,84 @@ body{
 .btn,
 .btn:hover,
 .btn:visited,
-.btn:visited:hover{
-    padding:1em 2em;
+.btn:visited:hover,
+.gs-content-layout-cols .secondary.small a.btn,
+.gs-content-layout-cols .secondary.small a.btn:hover,
+.gs-content-layout-cols .secondary.small a.btn:visited,
+.gs-content-layout-cols .secondary.small a.btn:visited:hover,
+#searchInput .button,
+#searchInput .button:hover,
+#searchInput .button:visited,
+#searchInput .button:visited:hover{
+    padding: 12px 24px;
     background: #649914;
-    border-radius:1em;
-    box-shadow:0px 2px 4px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     border: none;
     text-decoration: none;
     text-shadow: none;
-    font-size:0.8em;
-    font-weight:700;
+    font-size: 14px;
+    font-weight: 700;
     line-height: inherit;
-    text-align:center;
+    text-align: center;
 }
 
 .btn,
-.btn:visited{
+.btn:visited,
+.gs-content-layout-cols .secondary.small a.btn,
+.gs-content-layout-cols .secondary.small a.btn:visited{
     color: #EEEEEE;
 }
 
 .btn:hover,
-.btn:visited:hover{
+.btn:visited:hover,
+.gs-content-layout-cols .secondary.small a.btn:visited:hover{
     color: #FFFFFF;
     cursor:pointer;
+}
+
+.btn.disabled,
+.btn[disabled],
+.btn.disabled:hover,
+.btn[disabled]:hover{
+    background: #DDDDDD;
+    color: #533A77;
+    cursor: default;
+    box-shadow: none;
+}
+
+.gs-content-js-sharebox-dialog-widgets-public .btn,
+.gs-group-messages-post-buttons.btn-toolbar,
+.btn-group .btn:hover{
+    font-size: 14px;
+}
+
+.btn-group .btn:hover{
+    border-radius: 0;
+}
+
+.btn-group>.btn:last-child:hover, 
+.btn-group>.dropdown-toggle:hover{
+    border-radius: 0 4px 4px 0;
+}
+
+.btn-group>.btn:first-child:hover, 
+.btn-group>.dropdown-toggle:hover{
+    border-radius: 4px 0 0 4px;
+}
+
+.email-metadata .btn{
+    padding: 10px 20px;
+}
+
+.gs-group-messages-image-navlinks.btn-group>.btn,
+.gs-group-messages-post-navigation.btn-group>.btn,
+#gs-group-messages-topic-tasks .btn{
+    margin-bottom: 1em;
+}
+
+#gs-search-topic-site-home-search-button{
+    padding: 9px 24px;
 }
 
 /* Tabs */
@@ -414,11 +469,6 @@ body{
     border: none;
     padding: 1em;
     border-bottom: 1px solid white; 
-}
-
-.gs-content-js-sharebox-dialog-widgets-public .btn,
-.gs-group-messages-post-buttons.btn-toolbar{
-    font-size: 16px;
 }
 
 /* User Metadata */
@@ -786,12 +836,6 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
 .gs-group-messages-topic-navlinks{
   position: static;
   float: right;
-}
-
-.gs-group-messages-image-navlinks.btn-group>.btn,
-.gs-group-messages-post-navigation.btn-group>.btn,
-#gs-group-messages-topic-tasks .btn{
-    margin-bottom: 1em;
 }
 
 #gs-group-messages-topic-tasks>.gs-content-js-share{
