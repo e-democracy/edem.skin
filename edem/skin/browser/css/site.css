@@ -245,6 +245,18 @@ strong {
   }
 }
 
+/*              */
+/* WYM Editor   */
+/*              */
+
+.wym_area_right{
+    font-size: 11px;
+}
+
+.wym_skin_gs .wym_iframe{
+    font-size: 15px;
+}
+
 /* E-Democracy.org specific styles below */
 /* Copyright © 2013 E-Democracy.org and Contributors.                      */
 /* All Rights Reserved.                                                    */
