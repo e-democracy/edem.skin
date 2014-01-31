@@ -50,7 +50,9 @@ a:visited strong{
 }
 
 a:visited:hover,
-li a:visited:hover{
+li a:visited:hover,
+a:visited:hover em,
+a:visited:hover strong{
     background: #533A77;
     color: #FFFFFF;
     text-decoration: none;
@@ -334,20 +336,7 @@ body{
     margin: 0;
 }
 
-/*#gs-site-about-home,
-#gs-group-about,
-#gs-group-about h2,
-#gs-group-about-tab-intro{
-    color: #FFF;
-}*/
-
-/*#gs-site-about-home a,
-#gs-group-about a{
-    color: #FFF;
-    background: none;
-}*/
-
-..small .gs-content-js-more-buttons{
+.small .gs-content-js-more-buttons{
     margin: .6em 0 0 0;
 }
 
@@ -365,23 +354,31 @@ body{
 
 /* Buttons */
 
-.btn {
+.btn,
+.btn:hover,
+.btn:visited,
+.btn:visited:hover{
     padding:1em 2em;
     background: #649914;
     border-radius:1em;
     box-shadow:0px 2px 4px rgba(0,0,0,0.2);
     border: none;
-    color: #FFFFFF;
+    text-decoration: none;
     text-shadow: none;
-    font-size:0.7em;
+    font-size:0.8em;
     font-weight:700;
     line-height: inherit;
     text-align:center;
 }
 
-.btn:hover {
-    background: #649914;
-    color:#125680;
+.btn,
+.btn:visited{
+    color: #EEEEEE;
+}
+
+.btn:hover,
+.btn:visited:hover{
+    color: #FFFFFF;
     cursor:pointer;
 }
 
