@@ -16,12 +16,42 @@
 
 /* Links */
 a,
-a:visited,
 li a,
-li a:visited{
-    padding:0.4em 0.4em;
-    color:#3A91B5;
+a:hover,
+li a:hover,
+a:visited,
+li a:visited,
+a:active,
+li a:active{
+    padding: 0.4em 0.4em;
+}
+
+a,
+li a{
+    background: none;
+    color: #135A87;
     text-decoration: underline;
+}
+
+a:hover,
+li a:hover{
+    background: #135A87;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited,
+li a:visited{
+    background: none;
+    color: #533A77;
+    text-decoration: underline;
+}
+
+a:visited:hover,
+li a:visited:hover{
+    background: #533A77;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .label{
@@ -475,6 +505,7 @@ body{
     display: inline-block;
     vertical-align: middle;
     padding: 0.9375em;
+    background: none;
 }
 
 .logo{
