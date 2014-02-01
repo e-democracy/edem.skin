@@ -904,8 +904,13 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
 
 /* UI Components */
 
+#gs-group-messages-topic-tasks{
+    text-align: center;
+}
+
 #gs-group-messages-topic-page-content .gs-group-messages-topic-navlinks{
     margin-right: 16px;
+    margin-left: 16px;
 }
 
 /* Metadata */
