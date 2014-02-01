@@ -109,7 +109,7 @@ strong {
 
 .navbar .nav>li>a{
     text-shadow: none;
-    padding: 0.4em;
+    padding: 0 0.4em;
 }
 
 .navbar .nav-list{
@@ -507,6 +507,7 @@ body{
 
 .hentry .entry-content{
     margin-left: 1em;
+    line-height: 1.6em;
 }
 
 .hentry .fileNotification{
