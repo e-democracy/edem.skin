@@ -66,6 +66,17 @@
     file="browser/images/bg-white.png"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
+  <!-- Skin social media icons -->
+  <browser:resource
+    name="icon-fb-20131122.png"
+    file="browser/images/icon-fb.png"
+    layer=".interfaces.IEDemSkin"
+    permission="zope2.Public" />
+  <browser:resource
+    name="icon-twitter-blue-20131122.png"
+    file="browser/images/icon-twitter-blue.png"
+    layer=".interfaces.IEDemSkin"
+    permission="zope2.Public" />
 
   <!-- Skin supporting JS -->
   <browser:resource
