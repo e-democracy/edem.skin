@@ -413,11 +413,15 @@ body{
     color: #533A77;
     cursor: default;
     box-shadow: none;
+    opacity: 1;
 }
 
 .gs-content-js-sharebox-dialog-widgets-public .btn,
 .gs-group-messages-post-buttons.btn-toolbar,
-.btn-group .btn:hover{
+.btn-group .btn,
+.btn-group .btn:hover,
+.gs-group-messages-image-navlinks.btn-group>.btn,
+.gs-group-messages-image-navlinks.btn-group>.btn:hover{
     font-size: 14px;
 }
 
