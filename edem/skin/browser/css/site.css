@@ -411,7 +411,8 @@ body{
     margin-bottom: 1em;
 }
 
-#gs-search-topic-site-home-search-button{
+#gs-search-topic-site-home-search-button,
+#gs-group-messages-topics-search-button{
     padding: 9px 24px;
 }
 
@@ -514,6 +515,12 @@ body{
 
 .mediaFileList .hmedia{
     margin: 0;
+}
+
+/* Input */
+
+.gs-search-entry input{
+    width: 20.5em;
 }
 
 /*                  */
