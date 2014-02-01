@@ -266,10 +266,12 @@ body{
     border: none;
 }
 
+/* Sidebar */
+
 .gs-content-layout-cols .secondary.small{
     float: left;
     padding: 0.5em;
-    background: #FFFFFF;
+    background: #EEE;
     border: none;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
@@ -1202,14 +1204,14 @@ form #widget-form\.message{
  * Menu Layout Pages
  */
 
-#gs-content-layout-menu,
-#gs-content-layout-menu-after{
-    background: #FFF;
+#gs-content-layout-menu{
+    background: #EEE;
     border-radius: 0.5em;
     padding: 0.5em;
 }
 
 #gs-content-layout-menu-after{
+    background: #FFF;
     border-radius: 1.0em;
     padding: 1.0em;
     margin-left: 14.75em;
