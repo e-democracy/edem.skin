@@ -39,39 +39,46 @@ Text Links
 These are the standard links of the site. They appear nearly everywhere - user content, site navigation, static content, 
 group meta content, sidebars, menus, footers, etc...
 
-*Default*
+**Default**
 
 :Selectors: a
 :Description: Dark blue text (#135A87) | No background | Underline
-:CSS::
+:CSS:
 
+::
   background: none;
   color: #135A87;
   text-decoration: underline;
 
-*Hover*
+**Hover**
 
 :Selectors: a:hover
 :Description: White text | Dark blue background (#135A87) | No underline
 :CSS:
+
+::
   background: #135A87;
   color: #FFFFFF;
   text-decoration: none;
 
-*Visited*
+**Visited**
 
 :Selectors: a:visited
 :Description: Purple text (#533A77) | No background | Underline
 :CSS:
+
+::
   background: none;
   color: #533A77;
   text-decoration: underline;
 
-*Hovering Visited*
+**Hovering Visited**
 
 :Selectors: a:visited:hover
 :Description: Purple background (#533A77) | White text color | No underline
 :CSS:
+
+::
   background: #533A77;
   color: #FFFFFF;
   text-decoration: none;
