@@ -44,7 +44,6 @@ group meta content, sidebars, menus, footers, etc...
 :Selectors: a
 :Description: Dark blue text (#135A87) | No background | Underline
 :CSS:
-::
   background: none;
   color: #135A87;
   text-decoration: underline;
