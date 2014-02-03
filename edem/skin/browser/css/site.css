@@ -416,6 +416,52 @@ body{
     padding: 9px 24px;
 }
 
+/* Buttons - Topic Display Page */
+/* Buttons - Post Display Page */
+/* Buttons - Image Display Page */
+/* The buttons don't need to be as visually heavy on this page*/
+.gs-group-messages-topic-navlinks .btn,
+.gs-group-messages-post-navigation .btn,
+.gs-group-messages-image-navlinks .btn{
+    padding: .5em;
+    color: #135A87;
+    text-decoration: underline;
+    box-shadow: none;
+    background: none;
+}
+
+.gs-group-messages-post-navigation .btn,
+.gs-group-messages-image-navlinks .btn{
+    color: #FFF;
+}
+
+.gs-group-messages-topic-navlinks .btn:hover,
+.gs-group-messages-post-navigation .btn:hover,
+.gs-group-messages-image-navlinks .btn:hover{
+    background: #135A87;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.gs-group-messages-post-navigation .btn:hover,
+.gs-group-messages-image-navlinks .btn:hover{
+    background: #FFF;
+    color: #135A87;
+}
+
+.gs-group-messages-topic-navlinks .btn.disabled,
+.gs-group-messages-post-navigation .btn.disabled,
+.gs-group-messages-image-navlinks .btn.disabled{
+    color: #999;
+    text-decoration: none;
+}
+
+.gs-group-messages-topic-navlinks .btn.disabled:hover,
+.gs-group-messages-post-navigation .btn.disabled:hover,
+.gs-group-messages-image-navlinks .btn.disabled:hover{
+    background: none;
+}
+
 /* Tabs */
 .nav-tabs > li{
     margin: 0;
@@ -1725,13 +1771,6 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     margin-left: 0;
     margin-top: 1em;
   }
-}
-
-@media (max-width: 600px){
-    .gs-group-messages-post-navigation,
-    .gs-group-messages-post-navigation .btn{
-        display: block;
-    }
 }
 
 @media (max-width: 500px){
