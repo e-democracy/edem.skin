@@ -1710,6 +1710,21 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     .hentry .entry-content{
         width: auto;
     }
+
+  /*
+   * Page Sections
+   */
+
+  /* Menu on Menu Layout */
+  #gs-content-layout-menu{
+    width: auto;
+  }
+
+  /* Main content on Menu Layout */
+  #gs-content-layout-menu-after{
+    margin-left: 0;
+    margin-top: 1em;
+  }
 }
 
 @media (max-width: 600px){
