@@ -76,6 +76,16 @@ group meta content, sidebars, menus, footers, etc...
   text-decoration: none;
 
 
+Muted
+-----
+
+Less important links and information. For example: keywords, disabled buttons. 
+
+:Selectors: .muted
+:Description: Like the regular text, but grey 
+:CSS:
+  color: #999;
+
 
 
 Authors
