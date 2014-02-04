@@ -43,7 +43,9 @@ li a{
 
 a:hover,
 li a:hover,
-#gs-content-layout-footer a:hover{
+#gs-content-layout-footer a:hover,
+.searchResults a:hover, 
+.gs-search-results a:hover{
     background: #135A87;
     color: #FFFFFF;
     text-decoration: none;
@@ -62,7 +64,9 @@ a:visited:hover,
 li a:visited:hover,
 a:visited:hover em,
 a:visited:hover strong,
-#gs-content-layout-footer a:visited:hover{
+#gs-content-layout-footer a:visited:hover,
+.searchResults a:visted:hover, 
+.gs-search-results a:visited:hover{
     background: #533A77;
     color: #FFFFFF;
     text-decoration: none;
