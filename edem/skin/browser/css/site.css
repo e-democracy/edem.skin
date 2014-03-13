@@ -1339,7 +1339,7 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     .hentry .email-metadata {
       position: static;
       top: 1.25em;
-      padding: 0 0 0 4.75em;
+      padding: 1.25em 0 0 4.75em;
       width: auto;
     }
 
