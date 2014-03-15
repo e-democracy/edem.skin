@@ -545,6 +545,12 @@ body{
     color: inherit;
 }
 
+#breadcrumbs, 
+#breadcrumbs a, 
+#breadcrumbs a strong{
+    color: #FFF;
+}
+
 /* Post Content */
 
 .hentry{
@@ -1017,6 +1023,10 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
     margin-left: 1em;
 }
 
+#add-to-topic #gs-group-messages-topic-add-from{
+    position: absolute;
+}
+
 .gs-group-messages-topic-add .userimage,
 #gs-group-messages-topic-add-from .userimage{
     height: auto;
@@ -1032,6 +1042,10 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
     position: absolute;
     width: 10em;
     line-height: 1.25em;
+}
+
+#add-to-topic #widget-form\.message{
+    margin-left: 16.5em;
 }
 
 .gs-group-messages-topic-add div:last-child,
@@ -1118,6 +1132,14 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
     width: auto;
     position: static;
     margin-left: 0;
+}
+
+#gs-group-messages-starttopic-new-topic label{
+    margin-right: 1em;
+}
+
+#gs-group-messages-starttopic-new-topic input{
+    width: 35.875em;
 }
 
 #gs-group-messages-starttopic #widget-form\.uploadedFile, 
@@ -1362,6 +1384,17 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     #widget-form\.uploadedFile, 
     .gs-group-messages-topic-add .buttons{
       margin: 0 0 1.25em;
+    }
+
+    #add-to-topic #gs-group-messages-topic-add-from{
+      position: static;
+    }
+
+    #add-to-topic #widget-form\.message,
+    #add-to-topic #widget-form\.uploadedFile{
+      padding: 1em;
+      margin-left: 0;
+      width: auto;
     }
 
     /*
