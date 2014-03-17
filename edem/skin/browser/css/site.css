@@ -530,6 +530,11 @@ body{
     text-decoration: none;
     line-height: normal;
 }
+
+.vcard a.photo {
+  padding: 0;
+}
+
 .metadata ul{
     display: inline-block;
     position: static;
