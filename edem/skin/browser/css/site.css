@@ -16,21 +16,6 @@
 
 /* Links */
 a,
-li a,
-a:hover,
-li a:hover,
-a:visited,
-li a:visited,
-a:active,
-li a:active,
-#gs-content-layout-footer a,
-#gs-content-layout-footer a:hover,
-#gs-content-layout-footer a:visited,
-#gs-content-layout-footer a:visited:hover{
-    padding: 0.4em 0.4em;
-}
-
-a,
 li a{
     background: none;
     color: #135A87;
