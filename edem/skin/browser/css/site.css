@@ -982,7 +982,8 @@ form#editpage,
 #gs-site-stats,
 #gs-site-home .main,
 body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
-#gs-login{
+#gs-login,
+#edem-group-stats-body{
     background: #FFFFFF;
     border-radius: 0.5em;
     padding: 1em;
