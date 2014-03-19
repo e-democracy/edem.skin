@@ -805,7 +805,8 @@ form#editpage,
 #gs-site-home .main,
 body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
 #gs-login,
-#edem-group-stats-body{
+#edem-group-stats-body,
+#edem-login-loggedout-body{
     background: #FFFFFF;
     border-radius: 1em;
     padding: 1em;
