@@ -1605,9 +1605,7 @@ form #widget-form\.message{
     background: #EEE;
     border-radius: 0.5em;
     float:left;
-    position:relative;
-    top:0;
-    left:0;
+    top: 0;
 }
 
 #gs-content-layout-menu-after{
@@ -2305,6 +2303,8 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
   /* Menu on Menu Layout */
   #gs-content-layout-menu{
     width: auto;
+    float: none;
+    margin-top: 1em;
   }
 
   /* Main content on Menu Layout */
