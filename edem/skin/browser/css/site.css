@@ -985,7 +985,8 @@ form#editpage,
 body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
 #gs-login,
 #edem-group-stats-body,
-#edem-login-loggedout-body{
+#edem-login-loggedout-body,
+#gs-group-links-change-links{
     background: #FFFFFF;
     border-radius: 0.5em;
     padding: 1em;
