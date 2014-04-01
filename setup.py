@@ -1,7 +1,8 @@
 # -*- coding=utf-8 -*-
+from __future__ import absolute_import, unicode_literals
 import os
 from setuptools import setup, find_packages
-from version import get_version
+from .version import get_version
 
 version = get_version()
 
