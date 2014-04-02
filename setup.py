@@ -34,10 +34,7 @@ setup(name='edem.skin',
     zip_safe=False,
     install_requires=[
         'setuptools',
-        'edem.skin',
-        'gs.groups',
         'gs.content.css',
-        'gs.site.home',
         # -*- Extra requirements: -*-
     ],
     entry_points="""
