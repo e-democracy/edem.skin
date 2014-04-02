@@ -1715,6 +1715,7 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     /* Full Width */
     #titlebar,
     #bodyblock, 
+    #page-groups #bodyblock,
     #gs-content-layout-footer-content,
     #page-s #bodyblock form{
         width: 98%;
