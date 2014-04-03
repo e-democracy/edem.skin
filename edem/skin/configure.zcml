@@ -80,8 +80,8 @@
 
   <!-- Skin supporting JS -->
   <browser:resource
-    name="edem-skin-sitenav.js"
-    file="browser/js/edem-skin-sitenav.js"
+    name="edem-skin-sitenav-20140402.js"
+    file="browser/js/edem-skin-sitenav-min.js"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
 

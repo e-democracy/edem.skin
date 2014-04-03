@@ -1,3 +1,4 @@
+"use strict";
 /*
  * Disable the toggling of dropdown menus on small screens, enable on larger 
  * screens. 

@@ -38,7 +38,7 @@ setup(
         'setuptools',
         'gs.content.css',
         'gs.group.properties',
-        'zope.app',
+        'zope.app.rotterdam',
         'zope.publisher',
         'zope.schema',
         # -*- Extra requirements: -*-
