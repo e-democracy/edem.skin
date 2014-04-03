@@ -49,6 +49,12 @@
     file="browser/css/site.css"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
+  <!--Ancient **GLOBAL** CSS for the Blog and Wiki -->
+  <browser:resource
+    name="globalstyle-20101213.css" 
+    file="browser/css/ancient-blog-min.css" 
+    layer=".interfaces.IEDemSkin" 
+    permission="zope2.Public"/>
 
   <!-- Skin supporting images -->
   <browser:resource
