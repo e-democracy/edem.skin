@@ -988,7 +988,8 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
 #edem-login-loggedout-body,
 #edem-profile-demographics-upload-demographics,
 #gs-group-links-change-links,
-#edem-profile-signup-base-signup-body{
+#edem-profile-signup-base-signup-body,
+#gs-profile-password-request{
     background: #FFFFFF;
     border-radius: 0.5em;
     padding: 1em;
