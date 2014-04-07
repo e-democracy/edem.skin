@@ -1621,6 +1621,23 @@ form #widget-form\.message{
 }
 
 /*
+ * Sign Up Page
+ */
+
+#signupmethods{
+  border-bottom: none;
+}
+
+#signupmethods .odd, 
+#signupmethods .even{
+  text-align: center;
+}
+
+#signupmethods div:first-of-type{
+  border-top: none;
+}
+
+/*
  * Profile Pages
  */
 
