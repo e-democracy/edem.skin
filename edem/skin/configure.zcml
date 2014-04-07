@@ -100,5 +100,10 @@
     file="browser/js/edem-skin-sitenav-min.js"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
+  <browser:resource
+    name="edem-skin-add-anonymous-buttons-20140407.js"
+    file="browser/js/edem-skin-add-anonymous-buttons-min.js"
+    layer=".interfaces.IEDemSkin"
+    permission="zope2.Public" />
 
 </configure>
