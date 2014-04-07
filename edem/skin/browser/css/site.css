@@ -1624,6 +1624,15 @@ form #widget-form\.message{
     top: 0;
 }
 
+#contextnav > ul ul {
+  padding-left: 1em;
+  padding-top: .625em;
+}
+
+#contextnav > ul ul li:last-of-type{
+  padding-bottom: 0;
+}
+
 #gs-content-layout-menu-after{
     margin:1em 0 1em 14.75em;
     background: #FFF;
