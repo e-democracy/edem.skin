@@ -1032,12 +1032,12 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
 }
 
 #footer-links .featured-links .nav{
-    padding: 1.0em 2.8em 2em;
+    padding: 1.0em 1.2em 2em;
 }
 
 #footer-links .featured-links .nav>li{
     font-size: 0.9em;
-    padding: 0.4em 1.6em;
+    padding: 0.4em 1.5em;
 }
 
 #footer-links .secondary-links .nav{
