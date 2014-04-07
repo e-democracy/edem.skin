@@ -8,10 +8,10 @@ E-Democracy's 2014 Skin and Layer
 :Author: `Bill Bushey`_
 :Contact: Bill Bushey <bill.bushey@e-democracy.org>
 :Date: 2013-10-25
-:Organization: `E-Democracy.org`_
+:Organization: `E-Democracy`_
 :Copyright: This document is licensed under a
   `Creative Commons Attribution-Share Alike 3.0 License`_
-  by `E-Democracy.org`_.
+  by `E-Democracy`_.
 
 Introduction
 ===========
@@ -102,7 +102,7 @@ Resources
 - Questions and comments to http://groupserver.org/groups/development
 - Report bugs at https://redmine.iopen.net/projects/edem
 
-.. _E-Democracy.org: http://e-democracy.org/
+.. _E-Democracy: http://e-democracy.org/
 .. _Bill Bushey: http://groupserver.org/p/wbushey
 .. _Tim Leisio: http://www.timleisio.com/
 .. _Michael JasonSmith: http://groupserver.org/p/mpj17
