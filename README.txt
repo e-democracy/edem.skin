@@ -86,6 +86,12 @@ Less important links and information. For example: keywords, disabled buttons.
 :CSS:
   color: #999;
 
+Minimizing CSS
+==============
+
+In the templates/css folder:
+
+    yui-compressor --type css --charset UTF-8 -v -o site-min.css site.css
 
 
 Authors
