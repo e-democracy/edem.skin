@@ -1659,6 +1659,10 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
     margin-top: 1em;
 }
 
+table#profileAtributes{
+    line-height: normal;
+}
+
 /*
  * Alerts
  */
