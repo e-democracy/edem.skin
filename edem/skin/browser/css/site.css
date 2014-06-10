@@ -1073,6 +1073,14 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
     font-size: 0.7em;
 }
 
+/*
+ * Can Not Post Notices
+ */
+
+#gs-group-member-canpost-info {
+  line-height: normal;
+}
+
 /* 
  * Image Display Page (.gs-group-messages-image) 
  */
@@ -1538,6 +1546,10 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
 }
 #gs-group-messages-topics-page #topicsSummary {
     width:100%;
+}
+
+table#topicsSummary {
+  line-height: normal;
 }
 #gs-group-messages-topics-page #topicsSummary caption {
     padding:0.25em 0;
