@@ -735,8 +735,10 @@ body{
     padding: 1em 0 0 0;
 }
 
+.normalFileList .hmedia,
 .mediaFileList .hmedia{
     margin: 0;
+    line-height: normal;
 }
 
 .mediaFileList .hmedia img {
