@@ -977,7 +977,7 @@ body{
 #gs-group-messages-topics-page,
 #gs-group-messages-starttopic,
 #page-groups #bodyblock,
-#page-s #bodyblock form,
+body[id^="page-"][id$="s"] #bodyblock form,
 form#edit-profile,
 form#gs-site-about-change,
 form#start-group,
