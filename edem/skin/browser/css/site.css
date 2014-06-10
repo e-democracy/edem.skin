@@ -884,7 +884,11 @@ body{
 
 .yamm-content strong{
     color: #4BA2C6;
-    font-size: 0.6875em;
+    font-size: 0.6875rem;
+}
+
+.yamm-content p{
+  font-size: 0.9rem;
 }
 
 .yamm-content .container{
@@ -897,6 +901,10 @@ body{
     padding: 0 1em;
     height: 12em;
     vertical-align: top;
+}
+
+.yamm-section.span12{
+    border-right: none;
 }
 
 .yamm-content .nav-list{
@@ -2194,6 +2202,9 @@ table.forum-directory {
     text-decoration:none;
   }
 
+  #sitenav-about-mm p{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
