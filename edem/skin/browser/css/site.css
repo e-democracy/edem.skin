@@ -1441,6 +1441,10 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
     font-size:0.95em;
 }
 
+#gs-group-messages-posts-ajax-response tbody {
+    line-height: normal;
+}
+
 #gs-group-messages-posts-ajax-response tr {
     padding:0.5em 0;
     border-bottom:1px solid #DDD;
@@ -1450,20 +1454,8 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
     padding:0.25em 0.5em;
 }
 
-#gs-group-messages-posts-ajax-response tr td.author {
-    
-}
-
 #gs-group-messages-posts-ajax-response tr td.topic {
     font-weight:bold;
-}
-
-#gs-group-messages-posts-ajax-response tr td.files {
-    
-}
-
-#gs-group-messages-posts-ajax-response tr td.date {
-    
 }
 
 /* Topic Listing */
