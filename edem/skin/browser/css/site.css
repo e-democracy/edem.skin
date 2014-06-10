@@ -1739,6 +1739,14 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock{
 }
 
 /*
+ * Twin Cities Forum listing pages
+ */
+
+table.forum-directory {
+  line-height: normal;
+}
+
+/*
  * Responsiveness
  */
 
