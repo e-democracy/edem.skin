@@ -152,7 +152,7 @@ strong {
 
 .navbar .nav>li>a{
     text-shadow: none;
-    padding: 0 0.4em;
+    padding: 0 0.35em;
 }
 
 .navbar .nav-list{
@@ -787,7 +787,6 @@ body{
     background: url("/++resource++logo-20131129.png") no-repeat;
     height: 30px;
     width: 147px;
-    margin-right: 1em;
 }
 
 .navbar, #titlebar{
@@ -815,7 +814,7 @@ body{
 
 #sitenav>li{
     display: block;
-    margin: 0 0.625em 0 0;
+    margin: 0 0.4em 0 0;
 }
 
 #sitenav, 
@@ -966,6 +965,15 @@ body{
     display: inline-block;
     float: none;
     vertical-align: middle;
+}
+
+#sitenav-account>a .fn{
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100px;
 }
 
 /* 
