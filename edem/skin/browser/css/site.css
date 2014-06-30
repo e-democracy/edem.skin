@@ -962,6 +962,7 @@ body{
 #sitenav-account .userimage{
     width: auto;
     height: auto;
+    padding: 0 .5em .625em 0;
     display: inline-block;
     float: none;
     vertical-align: middle;
