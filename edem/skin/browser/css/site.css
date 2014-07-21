@@ -1658,6 +1658,11 @@ form #widget-form\.message{
     top: 0;
 }
 
+#gs-content-layout-menu p.label{
+    white-space: normal;
+    line-height: normal;
+}
+
 #contextnav > ul ul {
   padding-left: 1em;
   padding-top: .625em;
