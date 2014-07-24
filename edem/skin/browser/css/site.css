@@ -1031,7 +1031,9 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
 #gs-group-links-change-links,
 #edem-profile-signup-base-signup-body,
 #edem-group-member-join-page,
-#gs-profile-password-request{
+#gs-profile-password-request,
+#edem-errormesg-page-not-found,
+#edem-errormesg-internal-error{
     background: #FFFFFF;
     border-radius: 0.5em;
     padding: 1em;
