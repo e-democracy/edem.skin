@@ -25,17 +25,17 @@
     - skin, so they are not inherited. Pages are associated with layers.
   -->
   <browser:resource
+    name="site-20140822.css"
+    file="browser/css/site-min.css"
+    layer=".interfaces.IEDemSkin"
+    permission="zope2.Public" />
+  <browser:resource
     name="site-20140728.css"
     file="browser/css/site-min.css"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
   <browser:resource
     name="site-20140721.css"
-    file="browser/css/site-min.css"
-    layer=".interfaces.IEDemSkin"
-    permission="zope2.Public" />
-  <browser:resource
-    name="site-20140402.css"
     file="browser/css/site-min.css"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
