@@ -185,6 +185,10 @@ strong {
     display: inline-block;
 }
 
+#gs-search-topic-site-home-tasks .dotted-inline-list{
+    margin: 1.25em 0;
+}
+
 
 /* Toolbars */
 .btn-toolbar {
