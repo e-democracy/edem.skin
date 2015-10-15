@@ -6,18 +6,18 @@
    - one for the layer attached to the skin.
  -->
  <interface
-   interface=".interfaces.IEDemLayer" 
+   interface=".interfaces.IEDemLayer"
    type="zope.publisher.interfaces.browser.IBrowserSkinType" />
  <interface
-   interface=".interfaces.IEDemSkin" 
+   interface=".interfaces.IEDemSkin"
    type="zope.publisher.interfaces.browser.IBrowserSkinType" />
  <!--
    - Skins have a name, provided by a utility. It is this name that is
    - looked up by the ++skin++ directive in the URL
- --> 
+ -->
  <utility
-   name="edem" 
-   component=".interfaces.IEDemSkin" 
+   name="edem"
+   component=".interfaces.IEDemSkin"
    provides="zope.publisher.interfaces.browser.IBrowserSkinType" />
 
   <!--
@@ -44,31 +44,31 @@
     file="browser/css/site.css"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
-  <browser:resource 
+  <browser:resource
     name="site-20110714.css"
     file="browser/css/site.css"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
-  <browser:resource 
+  <browser:resource
     name="site-20110308.css"
     file="browser/css/site.css"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
-  <browser:resource 
+  <browser:resource
     name="site-20110406.css"
     file="browser/css/site.css"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
   <!--Ancient **GLOBAL** CSS for the Blog and Wiki -->
   <browser:resource
-    name="globalstyle-20101213.css" 
-    file="browser/css/ancient-blog-global-min.css" 
-    layer=".interfaces.IEDemSkin" 
+    name="globalstyle-20101213.css"
+    file="browser/css/ancient-blog-global-min.css"
+    layer=".interfaces.IEDemSkin"
     permission="zope2.Public"/>
   <browser:resource
-    name="site-20101213.css" 
-    file="browser/css/ancient-blog-site.css" 
-    layer=".interfaces.IEDemSkin" 
+    name="site-20101213.css"
+    file="browser/css/ancient-blog-site.css"
+    layer=".interfaces.IEDemSkin"
     permission="zope2.Public"/>
 
   <!-- Skin supporting images -->
