@@ -640,14 +640,14 @@ body{
     vertical-align: top;
 }
 
-.hentry .email-metadata {
+.h-entry .email-metadata {
     position: absolute;
     top: 1.25em;
     left: 0;
     padding: 0 0 0 4.75em;
 }
 
-.hentry .userimage{
+.h-entry .userimage{
     position: absolute;
     top: 1.25em;
     margin-left: 1em;
@@ -709,13 +709,13 @@ body{
 
 /* Post Content */
 
-.hentry{
+.h-entry{
     min-height: 9.25em;
     padding:0;
     border-bottom:1px solid #CCC;
 }
 
-.hentry .email-message{
+.h-entry .email-message{
     width: 38em;
     margin: 1em 0 1em 1em;
     padding: 0 0 0 2em;
@@ -725,7 +725,7 @@ body{
     left: 16em;
 }
 
-.hentry .entry-content{
+.h-entry .entry-content{
     width: inherit;
     margin: 0;
     padding: 0;
@@ -733,7 +733,7 @@ body{
     line-height: 1.6em;
 }
 
-.hentry .fileNotification{
+.h-entry .fileNotification{
     width: inherit;
     margin: 1em 0 0 0;
     padding: 1em 0 0 0;
@@ -1123,7 +1123,7 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
 /* Background */
 
 .gs-group-messages-image .scaled-image,
-#gs-group-messages-post .hentry{
+#gs-group-messages-post .h-entry{
   background: #FFF;
   border-radius:1em;
   box-shadow:0px 2px 4px rgba(0,0,0,0.2);
@@ -1245,7 +1245,7 @@ body[id^="page-p_"] #gs-content-layout-body>#bodyblock,
     left: 0;
 }
 
-#gs-group-messages-topic-page-content .hentry:last-child{
+#gs-group-messages-topic-page-content .h-entry:last-child{
     border-bottom: 1px solid #cccccc;
 }
 
@@ -1850,19 +1850,19 @@ table.forum-directory {
     /*
      * Post Display Page
      */
-    .hentry .email-metadata {
+    .h-entry .email-metadata {
       position: static;
       top: 1.25em;
       padding: 0 0 0 4.75em;
       width: auto;
     }
 
-    .hentry .userimage{
+    .h-entry .userimage{
       position: absolute;
       top: 1.25em;
     }
      
-    .hentry .email-message{
+    .h-entry .email-message{
       display: block;
       position: static;
       margin-top: 1em;
@@ -2403,7 +2403,7 @@ table.forum-directory {
 }
 
 @media screen and (max-width: 660px){
-    .hentry .entry-content{
+    .h-entry .entry-content{
         width: auto;
     }
 
