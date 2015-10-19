@@ -1,4 +1,4 @@
-/* edem.skin */
+\/* edem.skin */
 
 /*!
  * Bootstrap v2.3.2
@@ -526,6 +526,11 @@ body{
     border-radius: 4px 0 0 4px;
 }
 
+.gs-group-messages-post-buttons {
+    /* Absolute positioning */
+    top: 5em; /* 4u */
+    left: 5em;
+}
 .email-metadata .btn{
     padding: 10px 20px;
 }
