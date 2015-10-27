@@ -26,7 +26,7 @@
   -->
   <browser:resource
     name="site-20151027.css"
-    file="browser/css/site.css"
+    file="browser/css/site-min.css"
     layer=".interfaces.IEDemSkin"
     permission="zope2.Public" />
   <browser:resource
