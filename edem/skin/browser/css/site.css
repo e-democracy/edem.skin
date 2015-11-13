@@ -512,6 +512,12 @@ body{
     font-size: 14px;
 }
 
+.gs-content-js-sharebox-dialog .full-share button.btn,
+.gs-content-js-sharebox-dialog .full-share button.btn:hover {
+    padding: 4px;
+    margin: 0 0 0 0.625em;
+}
+
 .btn-group .btn:hover{
     border-radius: 0;
 }
